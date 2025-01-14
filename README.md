@@ -38,7 +38,7 @@ Aquí se abordan temas como la creación de **sitios web estáticos o dinámicos
 
 **Materiales Físicos:**
 
-- **Computadora o servidor** con capacidad para ejecutar un sistema operativo **Linux**.
+- **Servidor** con capacidad para ejecutar un sistema operativo **Linux**.
 - Conexión a **Internet estable** para descargar el software necesario y mantener las actualizaciones.
 
 **Materiales Lógicos:**
