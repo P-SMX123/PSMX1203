@@ -1,6 +1,6 @@
 # **AJF Technology: Creación de un servidor web en linux y alojamiento de un sitio web**
 
-## **1.Idea seleccionada**
+## **1. Idea seleccionada**
 
 El proyecto tiene como objetivo la creación de un **servidor web** en un sistema operativo **Linux** (Ubuntu) y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un alojamiento web como el cdmon, para abordar la necesidad de los usuarios de alojar sus paginas web. Además, se incluirá una **página web corporativa** desarrollada en **HTML**, **CSS** y **JavaScript** y se incorporarán prácticas de seguridad, como la implementación de un **firewall** y análisis de seguridad con **pentesting** (incluyendo **Burp Suite**).
 
