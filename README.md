@@ -1,4 +1,4 @@
-# **AJF Technology:Creación de un servidor web en linux y plataforma de hosting web**
+# **AJF Technology: Creación de un servidor web en linux y plataforma de hosting web**
 
 ## **1. Idea seleccionada**
 
