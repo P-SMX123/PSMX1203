@@ -1,7 +1,3 @@
-Aquí tienes el texto con emojis añadidos para darle un toque visual y facilitar la comprensión:
-
----
-
 # **AJF Technology: Creación de un servidor web en Linux y plataforma de hosting web** 🌐💻
 
 ## **1. Idea seleccionada** 🧑‍💻
