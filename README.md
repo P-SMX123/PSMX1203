@@ -15,7 +15,7 @@ Los objetivos del proyecto son los siguientes:
 - Desarrollar una **página web corporativa** utilizando **HTML**, **CSS** y **JavaScript**.
 - Proteger el servidor web mediante la instalación y configuración de un **firewall** (Sophos, pfSense).
 - Realizar **pruebas de penetración** (**pentesting**) a través de herramientas como **Burp Suite** 🛠️ para detectar vulnerabilidades.
-- Analizar el **tráfico de red** utilizando herramientas como **Wireshark** 🐟 para garantizar la seguridad y el rendimiento del servidor.
+- Analizar el **tráfico de red** utilizando herramientas como **Wireshark** para garantizar la seguridad y el rendimiento del servidor.
 
 ## **3. Módulos del ciclo que tienen relación con el proyecto** 📚
 
