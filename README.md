@@ -8,25 +8,28 @@ El proyecto tiene como objetivo la creación de un **servidor web** en un sistem
 
 Los objetivos del proyecto son los siguientes:
 
-- **Configurar un servidor web** en Linux utilizando **Nginx** 🖥️.
+- **Configurar un servidor web** en Linux con **Nginx** 🖥️.
 - Crear y alojar un sitio web dinámico utilizando **HTML**, **CSS** y **JavaScript** 💡.
-- Implementar una **base de datos MySQL** para gestionar la información del sitio web 📊.
-- Asegurar el sitio web mediante la instalación de un **certificado SSL** para garantizar la seguridad de los datos transmitidos 🔐.
-- Desarrollar una **página web corporativa** utilizando **HTML**, **CSS** y **JavaScript**.
-- Proteger el servidor web mediante la instalación y configuración de un **firewall** (Sophos, pfSense).
-- Realizar **pruebas de penetración** (**pentesting**) a través de herramientas como **Burp Suite** 🛠️ para detectar vulnerabilidades.
-- Analizar el **tráfico de red** utilizando herramientas como **Wireshark** para garantizar la seguridad y el rendimiento del servidor.
+- Implementar una **base de datos MySQL** para gestionar la información 📊.
+- Administrar el servidor de manera sencilla mediante **Webmin**.
+- Instalar y configurar **PHP** para el procesamiento dinámico de contenido.
+- Configurar **DNS** para la correcta resolución de dominios.
+- Instalar un **certificado SSL** para asegurar la transmisión de datos 🔐.
+- Desarrollar una **página web corporativa** con tecnologías web modernas.
+- Asegurar el servidor mediante un **firewall** (Sophos, pfSense).
+- Realizar **pruebas de penetración** con herramientas como **Burp Suite** 🛠️.
+- Analizar el **tráfico de red** usando **Wireshark** para mejorar la seguridad y rendimiento.
 
 ## **3. Módulos del ciclo que tienen relación con el proyecto** 📚
 
-**Módulo 1: Administración de redes**  
+**Módulo 1: Serveis de xarxa**  
 Este módulo está directamente relacionado con la **configuración y gestión de servidores web**, así como con la **administración de redes** para garantizar la disponibilidad y seguridad del sitio web. La implementación de un **firewall** y el análisis de **tráfico de red** son aspectos esenciales dentro de este módulo.
 
-**Módulo 2: Desarrollo de aplicaciones web**  
+**Módulo 2: Aplicacions web**  
 Aquí se abordan temas como la creación de **sitios web estáticos o dinámicos** con **HTML**, **CSS** y **JavaScript**, la personalización de sitios web y la implementación de bases de datos **MySQL**. Además, se incluyen conceptos sobre la **seguridad web**, como el uso de **certificados SSL** y pruebas de penetración (**pentesting**).
 
-**Módulo 3: Sistemas operativos**  
-Este módulo se relaciona con la instalación y configuración de sistemas operativos como **Ubuntu Server** y **Kali Linux** en las máquinas virtuales. Lo que supone aprender a usar un nuevo sistema operativo (Kali) y aplicar los conocimientos aplicados en clase a lo largo del curso en **Ubuntu Server**.
+**Módulo 3: Sistemes operatius en xarxa**  
+Este módulo se relaciona con la instalación y configuración de sistemas operativos como **Ubuntu Server** y **Kali Linux** en las máquinas virtuales. Lo que supone aprender a usar un nuevo sistema operativo (Kali) y aplicar los conocimientos adquiridos en clase a lo largo del curso en **Ubuntu Server**.
 
 ## **4. Materiales necesarios** 🛠️
 
