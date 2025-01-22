@@ -16,7 +16,7 @@ Los objetivos del proyecto son los siguientes:
 - Configurar **DNS** para la correcta resolución de dominios.
 - Instalar un **certificado SSL** para asegurar la transmisión de datos 🔐.
 - Desarrollar una **página web corporativa** con tecnologías web modernas.
-- Asegurar el servidor mediante un **firewall** (Sophos, pfSense).
+- Asegurar el servidor mediante un **firewall** (Sophos).
 - Realizar **pruebas de penetración** con herramientas como **Burp Suite** 🛠️.
 - Analizar el **tráfico de red** usando **Wireshark** para mejorar la seguridad y rendimiento.
 
