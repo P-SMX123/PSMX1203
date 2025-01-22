@@ -60,7 +60,7 @@ Este proyecto tiene como objetivo crear una **página web de hosting** 🖥️, 
 
 - **Servidor Web (Nginx)**: Esta máquina será responsable de alojar y servir el sitio web dinámico utilizando el servidor web **Nginx**.
 - **Servidor de Base de Datos (MySQL)**: En esta máquina se instalará **MySQL**, que gestionará todas las bases de datos necesarias para el funcionamiento dinámico del sitio web.
-- **Ubuntu Firewall (pfSense o Sophos)**: Esta máquina actuará como un **firewall** para proteger todas las máquinas del proyecto, gestionando el tráfico de red y ofreciendo protección mediante **pfSense** o **Sophos**. También se encargará de la asignación de direcciones IP mediante **DHCP**.
+- **Ubuntu Firewall (Sophos)**: Esta máquina actuará como un **firewall** para proteger todas las máquinas del proyecto, gestionando el tráfico de red y ofreciendo protección mediante **pfSense** o **Sophos**. También se encargará de la asignación de direcciones IP mediante **DHCP**.
 - **Ubuntu DNS**: Esta máquina será configurada para gestionar el **DNS** (Sistema de Nombres de Dominio), permitiendo resolver nombres de dominio a direcciones IP de forma adecuada para el funcionamiento del sitio web.
 - **Kali Linux (Pentesting y Burp Suite)**: En esta máquina se instalará **Kali Linux**, un sistema operativo diseñado para pruebas de penetración. Usaremos herramientas como **Burp Suite** para realizar pruebas de seguridad y encontrar posibles vulnerabilidades en el servidor web.
 - **Ubuntu con TrueNAS**: Esta máquina será configurada para gestionar las **copias de seguridad**.
