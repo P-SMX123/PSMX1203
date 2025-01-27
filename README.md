@@ -1,93 +1,158 @@
 # **AJF Technology: Plataforma de hosting web** 🌐💻
-## 1. **Idea seleccionada 🧑‍💻**
+## 1. **Idea seleccionada** 🧑‍💻
 
-El proyecto tiene como objetivo la creación de un servidor web en un sistema operativo Linux (Ubuntu) y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un servicio de alojamiento web similar a plataformas como **CDmon**, para satisfacer la necesidad de los usuarios de alojar sus páginas web. Además, se desarrollará una **página web corporativa** utilizando **HTML**, **CSS** y **JavaScript**, e incorporará prácticas de seguridad como la implementación de un **firewall** 🔒 y análisis de seguridad con **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**).
+El proyecto tiene como objetivo la creación de un servidor web en un sistema operativo **Linux (Ubuntu)** y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un servicio de alojamiento web similar a **cdmon**, para abordar la necesidad de los usuarios de alojar sus páginas web. Además, se incluirá una página web corporativa desarrollada con **HTML**, **CSS** y **JavaScript** y se incorporarán prácticas de seguridad, como la implementación de un **firewall** 🔒 y análisis de seguridad mediante **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**). También se analizará el tráfico de red usando **Wireshark** 🐟 para mejorar la seguridad y el rendimiento.
+
 
 ## 2. **Objetivos 🎯**
 
 Los objetivos del proyecto son los siguientes:
 
-- Configurar un servidor web en Linux con **Nginx** 🖥️.
-- Crear y alojar un sitio web dinámico utilizando **HTML**, **CSS** y **JavaScript** 💡.
-- Implementar una base de datos **MySQL** para gestionar la información 📊.
-- Administrar el servidor de manera sencilla mediante **Webmin** 🛠️.
-- Instalar y configurar **PHP** para el procesamiento dinámico de contenido.
-- Configurar **DNS** para la correcta resolución de dominios 🌐.
-- Instalar un **certificado SSL** para asegurar la transmisión de datos 🔐.
-- Desarrollar una **página web corporativa** con tecnologías web modernas.
-- Asegurar el servidor mediante un **firewall** (**Sophos**) 🔒.
-- Realizar **pruebas de penetración** con herramientas como **Burp Suite** 🛠️.
-- Analizar el tráfico de red utilizando **Wireshark** para mejorar la seguridad y el rendimiento 🐟.
+- **Configurar un servidor web en Linux con Nginx** 🖥️.
+- **Crear y alojar un sitio web dinámico** utilizando **HTML**, **CSS** y **JavaScript** 💡.
+- **Implementar una base de datos MySQL** para gestionar la información 📊.
+- **Administrar el servidor de manera sencilla** mediante **Webmin**.
+- **Instalar y configurar PHP** para el procesamiento dinámico de contenido 🔧.
+- **Configurar DNS** para la correcta resolución de dominios 🌐.
+- **Instalar un certificado SSL** para asegurar la transmisión de datos 🔐.
+- **Desarrollar una página web corporativa** con tecnologías web modernas.
+- **Asegurar el servidor mediante un firewall** (**Sophos**) 🔒.
+- **Realizar pruebas de penetración** con herramientas como **Burp Suite** 🛠️.
+- **Analizar el tráfico de red** usando **Wireshark** para mejorar la seguridad y rendimiento 🐟.
 
-## 3. **Módulos del ciclo que tienen relación con el proyecto 📚**
 
-- **Módulo 1: Serveis de xarxa**  
-  Este módulo está directamente relacionado con la configuración y gestión de servidores web, así como con la administración de redes para garantizar la disponibilidad y seguridad del sitio web. La implementación de un **firewall** 🔒 y el análisis de tráfico de red 🐟 son aspectos clave dentro de este módulo.
+## 3. **Listado de tareas 📝**
 
-- **Módulo 2: Aplicacions web**  
-  Aquí se abordan temas como la creación de sitios web estáticos y dinámicos con **HTML**, **CSS** y **JavaScript**, la personalización de sitios web y la implementación de bases de datos **MySQL**. Además, se incluyen conceptos sobre la seguridad web, como el uso de **certificados SSL** 🔐 y pruebas de penetración 🕵️‍♂️.
+### Tareas por objetivo:
 
-- **Módulo 3: Sistemes operatius en xarxa**  
-  Este módulo se relaciona con la instalación y configuración de sistemas operativos como **Ubuntu Server** y **Kali Linux** en las máquinas virtuales. Se aprende a utilizar un nuevo sistema operativo (**Kali**) y aplicar los conocimientos adquiridos en clase en **Ubuntu Server**.
+- **Configurar servidor web en Linux con Nginx**:
+  - Instalación de **Ubuntu Server**.
+  - Instalación y configuración de **Nginx**.
+  - Configuración de **hosts virtuales** en **Nginx**.
+  - Optimización de **Nginx** para rendimiento.
 
-### 4. **Materiales necesarios 🛠️**
+- **Crear y alojar un sitio web dinámico**:
+  - Diseño y desarrollo de la página web en **HTML**, **CSS** y **JavaScript**.
+  - Implementación de **PHP** para funcionalidades dinámicas.
+  - Integración con **MySQL** para la gestión de datos.
 
-**Materiales físicos**:
-- Ordenadores para ejecutar sistemas operativos Linux en máquinas virtuales 💻.
-- Conexión a Internet para descargar el software necesario y mantener actualizaciones 🌐.
+- **Implementar seguridad**:
+  - Configuración del **firewall Sophos**.
+  - Instalación y pruebas de penetración con **Burp Suite**.
+  - Monitoreo de tráfico de red con **Wireshark**.
 
-**Materiales lógicos**:
-- **Sistema operativo**: **Ubuntu**.
-- **Servidor web**: **Nginx**.
-- **Base de datos**: **MySQL** (si se requiere).
-- **Editor de código**: **VSCode** o **Sublime Text** 📝.
-- **Certificado SSL** para asegurar la comunicación entre el servidor y los usuarios 🔐.
-- **Herramientas de seguridad**:
-  - **Firewall**: Para proteger el servidor y los datos 🔒.
-  - **Pentesting**: Herramientas como **Burp Suite** 🕵️‍♂️ para pruebas de penetración.
-  - **Wireshark**: Para analizar el tráfico de red y garantizar la seguridad 🐟.
+- **Optimización y rendimiento**:
+  - Ajustes de configuración de **PHP** y **MySQL**.
+  - 
 
-## 5. **Justificación de la elección de la idea 💡**
+## 4. **Asignar roles y responsabilidades del equipo 👥**
 
-Este proyecto tiene como objetivo crear una plataforma de **hosting web** 🖥️ donde los usuarios puedan alojar sus sitios web. Para ello, se aprenderá a configurar y administrar servidores web con **Linux** y **Nginx**, desarrollar sitios web dinámicos utilizando **HTML**, **CSS**, **JavaScript** y **PHP**, gestionar bases de datos con **MySQL**, asegurar el servidor mediante un **firewall** 🔒, y realizar pruebas de penetración con **Burp Suite** 🛠️. Además, se analizará el tráfico de red con **Wireshark** 🐟 para mejorar la seguridad.
+- **Alejandro (Encargado del Firewall y GitHub)** 🔐:
+  - **Firewall**: Configuración del **firewall Sophos**.
+  - **Pentesting**: Realización de pruebas de penetración con **Burp Suite**.
+  - **GitHub**: Gestión del repositorio de código y documentación.
+  - **Web Corporativa**: Colaboración en el desarrollo y seguridad de la página web.
 
-## 6. **Máquinas virtuales necesarias 🖥️**
+- **Jiajie (Encargado del Diseño Web)** 🎨:
+  - **MySQL**: Implementación y gestión de la base de datos **MySQL**.
+  - **Trello**: Gestión del proyecto en **Trello**.
+  - **Diagramas**: Creación de diagramas de arquitectura y flujos de trabajo.
 
-Se utilizarán 6 máquinas virtuales para este proyecto:
+- **Felipe (Encargado de la Red)** 🌐:
+  - **DNS**: Configuración del **DNS** para la correcta resolución de dominios.
+  - **Webmin**: Administración del servidor mediante **Webmin**.
+  - 
 
-1. **Servidor Web (Nginx)**: Esta máquina será responsable de alojar y servir el sitio web dinámico utilizando el servidor web **Nginx** 🖥️.
-2. **Servidor de Base de Datos (MySQL)**: En esta máquina se instalará **MySQL**, que gestionará todas las bases de datos necesarias para el funcionamiento del sitio web 📊.
-3. **Ubuntu Firewall (Sophos)**: Esta máquina actuará como un **firewall** para proteger todas las máquinas del proyecto, gestionando el tráfico de red y ofreciendo protección mediante **Sophos** 🔒. También se encargará de la asignación de direcciones IP mediante **DHCP**.
-4. **Ubuntu DNS**: Esta máquina se configurará para gestionar el **DNS** (Sistema de Nombres de Dominio), permitiendo la correcta resolución de nombres de dominio a direcciones IP 🌐.
-5. **Kali Linux (Pentesting y Burp Suite)**: En esta máquina se instalará **Kali Linux**, un sistema operativo diseñado para pruebas de penetración. Usaremos herramientas como **Burp Suite** 🛠️ para realizar pruebas de seguridad y encontrar vulnerabilidades en el servidor web.
-6. **Ubuntu con TrueNAS**: Esta máquina se configurará para gestionar las **copias de seguridad** del proyecto 💾.
+## 5. **Diagrama de la red 🌐**
 
-## 7. **Recursos 📚**
+El diagrama de la red debe mostrar las conexiones entre las máquinas virtuales y los servicios implementados:
 
-- **Bibliografía**: (Aquí puedes incluir libros o fuentes académicas relacionadas).
-- **Webgrafía**: (Incluir links a tutoriales o documentación relevante).
-- **Vídeos**: (Incluir enlaces a tutoriales visuales o conferencias).
-- **Cursos**: (Cursos recomendados para reforzar los conocimientos adquiridos).
+- **Servidor Web (Nginx)**: Conectado al **Servidor de Base de Datos (MySQL)**.
+- **Firewall (Sophos)**: Protege todos los servidores del tráfico no deseado.
+- **Servidor DNS**: Resuelve nombres de dominio.
+- **Servidor Webmin**: Administra el servidor de manera sencilla.
+- **Kali Linux (Pentesting)**: Realiza las pruebas de penetración.
+- **Wireshark**: Monitorea el tráfico de red para asegurar el rendimiento y la seguridad.
 
-## 8. **Consideraciones finales 🎯**
 
-Este proyecto no solo se enfoca en la creación de un servidor web, sino que también implementa medidas de seguridad 🔒 como el uso de un **firewall**, **pruebas de penetración** 🕵️‍♂️ y análisis de tráfico con **Wireshark** 🐟, asegurando sitios web funcionales y protegidos.
+## 6. **Tecnologías a implementar 🛠️**
 
----
+- **Ubuntu Server**: Para la gestión del servidor.
+- **Nginx**: Para alojar y servir el contenido web.
+- **PHP**: Para procesar contenido dinámico.
+- **MySQL**: Para la gestión de bases de datos.
+- **Webmin**: Para la administración del servidor.
+- **Wireshark**: Para el análisis del tráfico de red.
+- **Burp Suite**: Para pruebas de penetración.
+- **TrueNAS**: Para la gestión de las copias de seguridad.
+- **Sophos**: Para el firewall y protección de la red.
 
-## **Roles y Tareas del Equipo** 👥
 
-- **Alejandro (Encargado del Firewall y GitHub)** 🔐  
-  - **FIREWALL**: Configuración y gestión del firewall para proteger el servidor.
-  - **PENTESTING**: Realización de pruebas de penetración usando herramientas como **Burp Suite**.
-  - **GITHUB**: Gestión del repositorio y control de versiones del proyecto.
-  - **WEB CORPORATIVA**: Colaboración en el desarrollo de la página web corporativa.
+## 7. **Hardware a utilizar 🖥️**
 
-- **Jiajie (Encargado del Diseño Web)** 🎨  
-  - **MySQL**: Configuración y administración de la base de datos **MySQL**.
-  - **TRELLO**: Gestión de tareas y planificación del proyecto usando **Trello**.
-  - **DIAGRAMAS**: Creación de diagramas (como diagrama de Gantt) y diagramas de arquitectura de la web.
+**Máquinas virtuales**:
+- **Servidor Web (Nginx)**: 
+  - CPU: ? núcleos.
+  - RAM: ? GB.
+  - Almacenamiento: ? GB.
 
-- **Felipe (Encargado de la red)** 🌐  
-  - **DNS**: Configuración y gestión del **DNS** para asegurar la correcta resolución de dominios.
-  - **WEBMIN**: Administración del servidor mediante **Webmin** para facilitar la gestión de los servicios.
+- **Servidor de Base de Datos (MySQL)**: 
+  - CPU: ? núcleos.
+  - RAM: ? GB.
+  - Almacenamiento: ? GB.
+
+- **Firewall (Sophos)**: 
+  - CPU: ? núcleo.
+  - RAM: ? GB.
+  - Almacenamiento: ? GB.
+
+- **Servidor DNS**: 
+  - CPU: ? núcleo.
+  - RAM: ? GB.
+  - Almacenamiento: ? GB.
+
+- **Kali Linux (Pentesting y Burp Suite)**: 
+  - CPU: ? núcleos.
+  - RAM: ? GB.
+  - Almacenamiento: ?G B.
+
+- **Servidor Webmin**: 
+  - CPU: ? núcleo.
+  - RAM: ? GB.
+  - Almacenamiento: ? GB.
+
+
+## 8. **Servicios a implementar 🚀**
+
+- **Nginx**: Servir el contenido web dinámico.
+- **MySQL**: Gestión de bases de datos.
+- **Webmin**: Interfaz gráfica de administración.
+- **DNS**: Resolución de dominios.
+- **SSL**: Cifrado de la comunicación.
+- **Sophos Firewall**: Protección contra ataques.
+- **Pentesting (Burp Suite)**: Evaluación de la seguridad.
+- **Wireshark**: Análisis del tráfico de red.
+- **TrueNAS**: Gestión de copias de seguridad.
+
+
+## 9. **Sistemas operativos a utilizar 🖥️**
+
+- **Ubuntu Server 20.04 LTS**: Para las máquinas principales.
+- **Kali Linux**: Para pruebas de penetración y seguridad.
+- **Ubuntu Desktop** (opcional): Para tareas de desarrollo con interfaz gráfica.
+
+
+
+## 10. **Diagrama de Gantt 📅**
+
+| Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
+|--------------------------------------|----------|----------|----------------------|
+| **Configuración del Servidor Web**   | 01/02/25 | 05/02/25 | **Alejandro** 🛠️    |
+| **Desarrollo Web (HTML/CSS/JS)**     | 06/02/25 | 12/02/25 | **Jiajie** 🎨       |
+| **Integración de Base de Datos**     | 13/02/25 | 17/02/25 | **Jiajie** 📊       |
+| **Configuración de PHP y Webmin**    | 18/02/25 | 20/02/25 | **Felipe** 🌐       |
+| **Pruebas de Seguridad (Pentesting)**| 21/02/25 | 23/02/25 | **Alejandro** 🕵️‍♂️ |
+| **Análisis de Tráfico (Wireshark)**  | 24/02/25 | 26/02/25 | **Alejandro** 🐟   |
+| **Optimización y Ajustes Finales**   | 27/02/25 | 28/02/25 | **Todos** 👥        |
+| **Documentación en GitHub**          | 01/03/25 | 02/03/25 | **Todos** 📁        |
+
