@@ -1,4 +1,4 @@
-**AJF Technology: Plataforma de hosting web** 🌐💻
+# **AJF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada 🧑‍💻**
 
 El proyecto tiene como objetivo la creación de un servidor web en un sistema operativo Linux (Ubuntu) y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un servicio de alojamiento web similar a plataformas como **CDmon**, para satisfacer la necesidad de los usuarios de alojar sus páginas web. Además, se desarrollará una **página web corporativa** utilizando **HTML**, **CSS** y **JavaScript**, e incorporará prácticas de seguridad como la implementación de un **firewall** 🔒 y análisis de seguridad con **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**).
