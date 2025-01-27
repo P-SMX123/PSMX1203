@@ -43,7 +43,7 @@ Los objetivos del proyecto son los siguientes:
 
 - **Optimización y rendimiento**:
   - Ajustes de configuración de **PHP** y **MySQL**.
-  - 
+  - Implementación de caché en Nginx.
 
 ## 4. **Asignar roles y responsabilidades del equipo 👥**
 
