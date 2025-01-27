@@ -147,12 +147,12 @@ El diagrama de la red debe mostrar las conexiones entre las máquinas virtuales 
 
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
-| **Configuración del Servidor Web**   | 01/02/25 | 05/02/25 | **Alejandro** 🛠️    |
-| **Desarrollo Web (HTML/CSS/JS)**     | 06/02/25 | 12/02/25 | **Jiajie** 🎨       |
-| **Integración de Base de Datos**     | 13/02/25 | 17/02/25 | **Jiajie** 📊       |
-| **Configuración de PHP y Webmin**    | 18/02/25 | 20/02/25 | **Felipe** 🌐       |
-| **Pruebas de Seguridad (Pentesting)**| 21/02/25 | 23/02/25 | **Alejandro** 🕵️‍♂️ |
-| **Análisis de Tráfico (Wireshark)**  | 24/02/25 | 26/02/25 | **Alejandro** 🐟   |
-| **Optimización y Ajustes Finales**   | 27/02/25 | 28/02/25 | **Todos** 👥        |
-| **Documentación en GitHub**          | 01/03/25 | 02/03/25 | **Todos** 📁        |
+| **Configuración del Servidor Web**   | ??/??/?? | ??/??/?? | **Encargado** 🛠️    |
+| **Desarrollo Web (HTML/CSS/JS)**     | ??/??/?? | ??/??/?? | **Encargado** 🎨    |
+| **Integración de Base de Datos**     | ??/??/?? | ??/??/?? | **Encargado** 📊    |
+| **Configuración de PHP y Webmin**    | ??/??/?? | ??/??/?? | **Encargado** 🌐    |
+| **Pruebas de Seguridad (Pentesting)**| ??/??/?? | ??/??/?? | **Encargado** 🕵️‍♂️    |
+| **Análisis de Tráfico (Wireshark)**  | ??/??/?? | ??/??/?? | **Encargado** 🐟    |
+| **Optimización y Ajustes Finales**   | ??/??/?? | ??/??/?? | **Encargado** 👥    |
+| **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁    |
 
