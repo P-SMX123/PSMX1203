@@ -61,7 +61,7 @@ Los objetivos del proyecto son los siguientes:
 - **Felipe (Encargado de la Red)** 🌐:
   - **DNS**: Configuración del **DNS** para la correcta resolución de dominios.
   - **Webmin**: Administración del servidor mediante **Webmin**.
-  - 
+  - **Optimización de Nginx y PHP/MySQL:** Mejora del rendimiento general del servidor.
 
 ## 5. **Diagrama de la red 🌐**
 
@@ -89,38 +89,38 @@ Los objetivos del proyecto son los siguientes:
 - **Sophos**: Para el firewall y protección de la red.
 
 
-## 7. **Hardware Virtual a utilizar 🖥️**
+## 7. **Hardware virtual a utilizar 🖥️**
 
 **Máquinas virtuales**:
 - **Servidor Web (Nginx)**: 
-  - CPU: ? núcleos.
-  - RAM: ? GB.
-  - Almacenamiento: ? GB.
+  - **CPU:** ? núcleos.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ? GB.
 
 - **Servidor de Base de Datos (MySQL)**: 
-  - CPU: ? núcleos.
-  - RAM: ? GB.
-  - Almacenamiento: ? GB.
+  - **CPU:** ? núcleos.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ? GB.
 
 - **Firewall (Sophos)**: 
-  - CPU: ? núcleo.
-  - RAM: ? GB.
-  - Almacenamiento: ? GB.
+  - **CPU:** ? núcleo.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ? GB.
 
 - **Servidor DNS**: 
-  - CPU: ? núcleo.
-  - RAM: ? GB.
-  - Almacenamiento: ? GB.
+  - **CPU:** ? núcleo.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ? GB.
 
 - **Kali Linux (Pentesting y Burp Suite)**: 
-  - CPU: ? núcleos.
-  - RAM: ? GB.
-  - Almacenamiento: ?G B.
+  - **CPU:** ? núcleos.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ?G B.
 
 - **Servidor Webmin**: 
-  - CPU: ? núcleo.
-  - RAM: ? GB.
-  - Almacenamiento: ? GB.
+  - **CPU:** ? núcleo.
+  - **RAM:** ? GB.
+  - **Almacenamiento:** ? GB.
 
 
 ## 8. **Servicios a implementar 🚀**
@@ -156,4 +156,23 @@ Los objetivos del proyecto son los siguientes:
 | **Análisis de Tráfico (Wireshark)**  | ??/??/?? | ??/??/?? | **Encargado** 🐟    |
 | **Optimización y Ajustes Finales**   | ??/??/?? | ??/??/?? | **Encargado** 👥    |
 | **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁    |
+
+
+## **11. Recursos** 📦
+
+- **Bibliografía:**
+
+
+
+- **Webgrafía:**
+
+
+
+- **Vídeos:**
+
+
+
+- **Cursos:**
+
+
 
