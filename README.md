@@ -65,14 +65,15 @@ Los objetivos del proyecto son los siguientes:
 
 ## 5. **Diagrama de la red 🌐**
 
-El diagrama de la red debe mostrar las conexiones entre las máquinas virtuales y los servicios implementados:
-
 - **Servidor Web (Nginx)**: Conectado al **Servidor de Base de Datos (MySQL)**.
 - **Firewall (Sophos)**: Protege todos los servidores del tráfico no deseado.
 - **Servidor DNS**: Resuelve nombres de dominio.
 - **Servidor Webmin**: Administra el servidor de manera sencilla.
 - **Kali Linux (Pentesting)**: Realiza las pruebas de penetración.
 - **Wireshark**: Monitorea el tráfico de red para asegurar el rendimiento y la seguridad.
+
+<img src="https://github.com/user-attachments/assets/22408195-4e4d-46bd-b134-c15d54b684b9" width="507"/>
+<img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="500"/>
 
 
 ## 6. **Tecnologías a implementar 🛠️**
@@ -88,7 +89,7 @@ El diagrama de la red debe mostrar las conexiones entre las máquinas virtuales 
 - **Sophos**: Para el firewall y protección de la red.
 
 
-## 7. **Hardware a utilizar 🖥️**
+## 7. **Hardware Virtual a utilizar 🖥️**
 
 **Máquinas virtuales**:
 - **Servidor Web (Nginx)**: 
@@ -137,7 +138,7 @@ El diagrama de la red debe mostrar las conexiones entre las máquinas virtuales 
 
 ## 9. **Sistemas operativos a utilizar 🖥️**
 
-- **Ubuntu Server 20.04 LTS**: Para las máquinas principales.
+- **Ubuntu Server**: Para las máquinas principales.
 - **Kali Linux**: Para pruebas de penetración y seguridad.
 - **Ubuntu Desktop** (opcional): Para tareas de desarrollo con interfaz gráfica.
 
