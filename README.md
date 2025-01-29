@@ -11,6 +11,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 ## 3. **Objetivos 🎯 y Listado de tareas 📝**
 
+
 1. **Configurar servidor web en Linux con Nginx** 🖥️:
    - Instalar **Ubuntu Server** y **Nginx**.
    - Configurar **hosts virtuales** y optimizar Nginx.
@@ -42,11 +43,11 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
    - Realizar pruebas de seguridad con **Burp Suite**.
 
 10. **Analizar tráfico de red con Wireshark** 🐟:
-   - Monitorizar el tráfico de red con **Wireshark**.
+      - Monitorizar el tráfico de red con **Wireshark**.
 
 11. **Optimización y rendimiento**:
-   - Ajustar configuraciones de **PHP** y **MySQL**.
-   - Implementar **caché** en **Nginx**.
+      - Ajustar configuraciones de **PHP** y **MySQL**.
+      - Implementar **caché** en **Nginx**. 
 
 
 
