@@ -5,45 +5,51 @@ El proyecto tiene como objetivo la creación de un servidor web en un sistema op
 
 
 ## 2. **Objetivos 🎯**
+Objetivos personales:
 
-Los objetivos del proyecto son los siguientes:
 
-- **Configurar un servidor web en Linux con Nginx** 🖥️.
-- **Crear y alojar un sitio web dinámico** utilizando **HTML**, **CSS** y **JavaScript** 💡.
-- **Implementar una base de datos MySQL** para gestionar la información 📊.
-- **Administrar el servidor de manera sencilla** mediante **Webmin**.
-- **Instalar y configurar PHP** para el procesamiento dinámico de contenido 🔧.
-- **Configurar DNS** para la correcta resolución de dominios 🌐.
-- **Instalar un certificado SSL** para asegurar la transmisión de datos 🔐.
-- **Desarrollar una página web corporativa** con tecnologías web modernas.
-- **Asegurar el servidor mediante un firewall** (**Sophos**) 🔒.
-- **Realizar pruebas de penetración** con herramientas como **Burp Suite** 🛠️.
-- **Analizar el tráfico de red** usando **Wireshark** para mejorar la seguridad y rendimiento 🐟.
 
 
 ## 3. **Listado de tareas 📝**
 
-### Tareas por objetivo:
+1. **Configurar servidor web en Linux con Nginx** 🖥️:
+   - Instalar **Ubuntu Server** y **Nginx**.
+   - Configurar **hosts virtuales** y optimizar Nginx.
 
-- **Configurar servidor web en Linux con Nginx**:
-  - Instalación de **Ubuntu Server**.
-  - Instalación y configuración de **Nginx**.
-  - Configuración de **hosts virtuales** en **Nginx**.
-  - Optimización de **Nginx** para rendimiento.
+2. **Crear y alojar un sitio web dinámico** 💡:
+   - Desarrollar el sitio con **HTML**, **CSS** y **JavaScript**.
+   - Integrar **PHP** y **MySQL** para contenido dinámico.
 
-- **Crear y alojar un sitio web dinámico**:
-  - Diseño y desarrollo de la página web en **HTML**, **CSS** y **JavaScript**.
-  - Implementación de **PHP** para funcionalidades dinámicas.
-  - Integración con **MySQL** para la gestión de datos.
+3. **Implementar base de datos MySQL** 📊:
+   - Instalar y configurar **MySQL**.
+   - Conectar la base de datos al sitio web.
 
-- **Implementar seguridad**:
-  - Configuración del **firewall Sophos**.
-  - Instalación y pruebas de penetración con **Burp Suite**.
-  - Monitoreo de tráfico de red con **Wireshark**.
+4. **Administrar servidor con Webmin**:
+   - Instalar y configurar **Webmin** para gestión remota.
 
-- **Optimización y rendimiento**:
-  - Ajustes de configuración de **PHP** y **MySQL**.
-  - Implementación de caché en Nginx.
+5. **Instalar y configurar PHP** 🔧:
+   - Instalar **PHP** y configurarlo para **Nginx**.
+
+6. **Configurar DNS y SSL** 🌐🔐:
+   - Configurar **DNS** y **SSL** para seguridad HTTPS.
+
+7. **Desarrollar página web corporativa**:
+   - Crear una página web moderna y responsiva.
+
+8. **Asegurar el servidor con firewall (Sophos)** 🔒:
+   - Configurar **Sophos** para protección del servidor.
+
+9. **Pruebas de penetración con Burp Suite** 🛠️:
+   - Realizar pruebas de seguridad con **Burp Suite**.
+
+10. **Analizar tráfico de red con Wireshark** 🐟:
+   - Monitorizar el tráfico de red con **Wireshark**.
+
+11. **Optimización y rendimiento**:
+   - Ajustar configuraciones de **PHP** y **MySQL**.
+   - Implementar **caché** en **Nginx**.
+
+
 
 ## 4. **Asignar roles y responsabilidades del equipo 👥**
 
