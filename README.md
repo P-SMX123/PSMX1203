@@ -82,17 +82,18 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 <img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="500"/>
 
 
-## 6. **Tecnologías a implementar 🛠️**
+## 6. **Tecnologías y Servicios a implementar 🛠️🚀**
 
-- **Ubuntu Server**: Para la gestión del servidor.
-- **Nginx**: Para alojar y servir el contenido web.
-- **PHP**: Para procesar contenido dinámico.
-- **MySQL**: Para la gestión de bases de datos.
-- **Webmin**: Para la administración del servidor.
-- **Wireshark**: Para el análisis del tráfico de red.
-- **Burp Suite**: Para pruebas de penetración.
-- **TrueNAS**: Para la gestión de las copias de seguridad.
-- **Sophos**: Para el firewall y protección de la red.
+- **Ubuntu Server**: Sistema operativo para la gestión y administración del servidor web.
+- **Nginx**: Servidor web utilizado para alojar y servir el contenido dinámico de las páginas web.
+- **PHP**: Lenguaje de programación para procesar contenido dinámico en las páginas web.
+- **MySQL**: Sistema de gestión de bases de datos para almacenar la información de usuarios, páginas web y otros datos relacionados.
+- **Webmin**: Interfaz gráfica para la administración remota del servidor, facilitando tareas de configuración y gestión.
+- **Wireshark**: Herramienta para el análisis del tráfico de red, utilizada para identificar vulnerabilidades de seguridad y mejorar el rendimiento.
+- **Burp Suite**: Herramienta de pruebas de penetración para evaluar la seguridad de la aplicación web y detectar posibles fallos o brechas de seguridad.
+- **Sophos**: Solución de firewall para proteger el servidor y la red de accesos no autorizados y otros tipos de ataques.
+- **SSL**: Implementación de un sistema de cifrado de comunicaciones para garantizar la seguridad de las conexiones HTTPS entre los usuarios y el servidor.
+- **TrueNAS**: Sistema para gestionar las copias de seguridad, asegurando la protección y recuperación de datos.
 
 
 ## 7. **Hardware virtual a utilizar 🖥️**
@@ -129,20 +130,8 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
   - **Almacenamiento:** ? GB.
 
 
-## 8. **Servicios a implementar 🚀**
 
-- **Nginx**: Servir el contenido web dinámico.
-- **MySQL**: Gestión de bases de datos.
-- **Webmin**: Interfaz gráfica de administración.
-- **DNS**: Resolución de dominios.
-- **SSL**: Cifrado de la comunicación.
-- **Sophos Firewall**: Protección contra ataques.
-- **Pentesting (Burp Suite)**: Evaluación de la seguridad.
-- **Wireshark**: Análisis del tráfico de red.
-- **TrueNAS**: Gestión de copias de seguridad.
-
-
-## 9. **Sistemas operativos a utilizar 🖥️**
+## 8. **Sistemas operativos a utilizar 🖥️**
 
 - **Ubuntu Server**: Para las máquinas principales.
 - **Kali Linux**: Para pruebas de penetración y seguridad.
@@ -150,7 +139,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 
 
-## 10. **Diagrama de Gantt 📅**
+## 9. **Diagrama de Gantt 📅**
 
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
@@ -164,7 +153,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 | **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁    |
 
 
-## **11. Recursos** 📦
+## **10. Recursos** 📦
 
 - **Bibliografía:**
 
