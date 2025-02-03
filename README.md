@@ -1,3 +1,5 @@
+1.	Matriz de requisitos y funcionalidades
+   
 | **ID**  | **Prioridad** | **Objetivo**                               | **Funcionalidad**                                                                                                  | **Fecha Entrega** | **Estado**  |
 |---------|---------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------|-------------|
 | **ID0** | Media         | Registrar usuarios                        | Crear un sistema para que los usuarios se registren con su correo, contraseña y guardar los datos de forma segura. | ??/??/????         | Pendiente   |
