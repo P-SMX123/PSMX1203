@@ -1,6 +1,6 @@
 ![Leonardo_Phoenix_10_A_futuristic_hightech_banner_featuring_the_0](https://github.com/user-attachments/assets/f485e7ab-a7d4-4f5b-9b10-8e2e60fea177)
 
-# **AJF Technology: Plataforma de hosting web** 🌐💻
+# **JAF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada** 🧑‍💻
 
 El proyecto tiene como objetivo la creación de un servidor web en un sistema operativo **Linux (Ubuntu)** y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un servicio de alojamiento web similar a **cdmon**, para abordar la necesidad de los usuarios de alojar sus páginas web. Además, se incluirá una página web corporativa desarrollada con **HTML**, **CSS** y **JavaScript** y se incorporarán prácticas de seguridad, como la implementación de un **firewall** 🔒 y análisis de seguridad mediante **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**). También se analizará el tráfico de red usando **Wireshark** 🐟 para mejorar la seguridad y el rendimiento.
