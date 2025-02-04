@@ -1,6 +1,4 @@
-
-![Imagen futurista](https://github.com/user-attachments/assets/f5ae9c0b-5b37-4841-9e7b-922fe3a53081)
-
+![Leonardo_Phoenix_10_A_futuristic_hightech_banner_featuring_the_0](https://github.com/user-attachments/assets/f485e7ab-a7d4-4f5b-9b10-8e2e60fea177)
 
 # **AJF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada** 🧑‍💻
