@@ -1,4 +1,4 @@
-Leonardo_Phoenix_10_A_futuristic_hightech_banner_featuring_the_1.jpg
+
 
 # **AJF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada** 🧑‍💻
