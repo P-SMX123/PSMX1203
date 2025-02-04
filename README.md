@@ -1,3 +1,5 @@
+![abstract-motion-digital-background-digital-data-tunnel-made-of-digital-nodes-futuristic-technology-abstract-background-with-lines-for-network-big-data-server-internet-speed-seamless-loop-free-video](https://github.com/user-attachments/assets/d359979e-22be-4262-b98c-3da2906d0201)
+
 # **AJF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada** 🧑‍💻
 
