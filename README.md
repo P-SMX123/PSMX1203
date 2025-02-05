@@ -11,7 +11,7 @@ El proyecto tiene como objetivo la creación de un servidor web en un sistema op
 A nivel personal nos supone un desafío y es una gran oportunidad para aprender a hacer cosas nuevas. Indiferentemente de que haya algunas cosas que nos gusten o motiven más y otras menos, es un proyecto interesante, ya que ninguno de los integrantes hemos hecho algo parecido antes. Creemos que con la ayuda de nuestros profesores, puede salirnos muy bien y ser un gran proyecto.
 
 
-## 3. **Objetivos 🎯 y Listado de tareas 📝**
+## 3. **Objetivos y Listado de tareas 📝**
 
 
 1. **Configurar servidor web en Linux con Nginx** 🖥️:
