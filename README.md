@@ -138,7 +138,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 ## 8. **Sistemas operativos a utilizar 🖥️**
 
-- **Ubuntu Server**: Para las máquinas principales.
+- **Ubuntu Server**: Para las todas las maquinas excepto la de la prueba de penetración.
 - **Kali Linux**: Para pruebas de penetración y seguridad.
 - **Ubuntu Desktop** (opcional): Para tareas de desarrollo con interfaz gráfica.
 
@@ -146,16 +146,20 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 ## 9. **Diagrama de Gantt 📅**
 
+
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
-| **Configuración del Servidor Web**   | ??/??/?? | ??/??/?? | **Encargado** 🛠️    |
-| **Desarrollo Web (HTML/CSS/JS)**     | ??/??/?? | ??/??/?? | **Encargado** 🎨    |
-| **Integración de Base de Datos**     | ??/??/?? | ??/??/?? | **Encargado** 📊    |
-| **Configuración de PHP y Webmin**    | ??/??/?? | ??/??/?? | **Encargado** 🌐    |
-| **Pruebas de Seguridad (Pentesting)**| ??/??/?? | ??/??/?? | **Encargado** 🕵️‍♂️    |
-| **Análisis de Tráfico (Wireshark)**  | ??/??/?? | ??/??/?? | **Encargado** 🐟    |
-| **Optimización y Ajustes Finales**   | ??/??/?? | ??/??/?? | **Encargado** 👥    |
-| **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁    |
+| **Configuración del Firewall (Sophos)** | ??/??/?? | ??/??/?? | **Encargado** 🔒   |
+| **Configuración del DHCP**           | ??/??/?? | ??/??/?? | **Encargado** 🔧   |
+| **Configuración del Servidor Web**   | ??/??/?? | ??/??/?? | **Encargado** 🛠️   |
+| **Configuración del DNS**            | ??/??/?? | ??/??/?? | **Encargado** 🌐   |
+| **Desarrollo Web (HTML/CSS/JS)**     | ??/??/?? | ??/??/?? | **Encargado** 🎨   |
+| **Integración de Base de Datos**     | ??/??/?? | ??/??/?? | **Encargado** 📊   |
+| **Configuración de PHP y Webmin**    | ??/??/?? | ??/??/?? | **Encargado** 🌐   |
+| **Pruebas de Seguridad (Pentesting)**| ??/??/?? | ??/??/?? | **Encargado** 🕵️‍♂️ |
+| **Análisis de Tráfico (Wireshark)**  | ??/??/?? | ??/??/?? | **Encargado** 🐟   |
+| **Optimización y Ajustes Finales**   | ??/??/?? | ??/??/?? | **Encargado** 👥   |
+| **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁   |
 
 
 ## **10. Recursos** 📦
