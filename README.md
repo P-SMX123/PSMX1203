@@ -81,8 +81,9 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 - **Wireshark**: Monitorea el tráfico de red para asegurar el rendimiento y la seguridad.
 
 <img src="https://github.com/user-attachments/assets/22408195-4e4d-46bd-b134-c15d54b684b9" width="750"/>
+Diagrama de red en cisco
 <img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="750"/>
-
+Diagrama de red en canva
 
 ## 6. **Tecnologías y Servicios a implementar 🛠️🚀**
 
