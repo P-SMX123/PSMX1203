@@ -149,17 +149,20 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
-| **Configuración del Firewall (Sophos)** | ??/??/?? | ??/??/?? | **Encargado** 🔒   |
-| **Configuración del DHCP**           | ??/??/?? | ??/??/?? | **Encargado** 🔧   |
-| **Configuración del Servidor Web**   | ??/??/?? | ??/??/?? | **Encargado** 🛠️   |
-| **Configuración del DNS**            | ??/??/?? | ??/??/?? | **Encargado** 🌐   |
-| **Desarrollo Web (HTML/CSS/JS)**     | ??/??/?? | ??/??/?? | **Encargado** 🎨   |
-| **Integración de Base de Datos**     | ??/??/?? | ??/??/?? | **Encargado** 📊   |
-| **Configuración de PHP y Webmin**    | ??/??/?? | ??/??/?? | **Encargado** 🌐   |
-| **Pruebas de Seguridad (Pentesting)**| ??/??/?? | ??/??/?? | **Encargado** 🕵️‍♂️ |
-| **Análisis de Tráfico (Wireshark)**  | ??/??/?? | ??/??/?? | **Encargado** 🐟   |
-| **Optimización y Ajustes Finales**   | ??/??/?? | ??/??/?? | **Encargado** 👥   |
-| **Documentación en GitHub**          | ??/??/?? | ??/??/?? | **Encargado** 📁   |
+| **Documentación en GitHub**          | 23/01/25 | 29/04/25 | **Encargado** 📁   |
+| **Configuración del Firewall (Sophos)** | 10/02/25 | 17/02/25 | **Encargado** 🔒   |
+| **Configuración del DHCP**           | 13/02/25 | 20/02/25 | **Encargado** 🔧   |
+| **Configuración del Servidor Web**   | 17/02/25 | 24/02/25 | **Encargado** 🛠️   |
+| **Configuración del DNS**            | 27/02/25 | 06/03/25 | **Encargado** 🌐   |
+| **Desarrollo Web (HTML/CSS/JS)**     | 10/03/25 | 20/03/25 | **Encargado** 🎨   |
+| **Integración de Base de Datos**     | 21/03/25 | 25/03/25 | **Encargado** 📊   |
+| **Configuración de PHP y Webmin**    | 26/03/25 | 31/03/25 | **Encargado** 🌐   |
+| **Pruebas de Seguridad (Pentesting)**| 01/04/25 | 10/04/25 | **Encargado** 🕵️‍♂️ |
+| **Análisis de Tráfico (Wireshark)**  | 11/04/25 | 17/04/25 | **Encargado** 🐟   |
+| **Optimización y Ajustes Finales**   | 18/04/25 | 27/04/25 | **Encargado** 👥   |
+| **Entrega del Proyecto**             | 30/04/25 | 06/05/25 | **Finalización** ✅ |
+
+# (Estimación)
 
 
 ## **10. Recursos** 📦
