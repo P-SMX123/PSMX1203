@@ -143,8 +143,21 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 - **Ubuntu Desktop** (opcional): Para tareas de desarrollo con interfaz gráfica.
 
 
+## 9. **Sistemas operativos a utilizar 🖥️**
 
-## 9. **Diagrama de Gantt 📅**
+- Introducción al servicio (DNS y al DHCP)
+- ¿Qué es?
+- ¿Por qué es necesario?
+- ¿Dónde hay información oficial?
+- Extras
+- Instalación (DNS y del DHCP)
+- Detalles de la MV
+- Pasos a seguir
+- Incidencias
+
+
+
+## 10. **Diagrama de Gantt 📅**
 
 
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
@@ -165,7 +178,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 # (Estimación)
 
 
-## **10. Recursos** 📦
+## **11. Recursos** 📦
 
 - **Bibliografía:**
 
