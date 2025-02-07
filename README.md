@@ -180,7 +180,7 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 Diagrama entidad-relación del proyecto:
 
-![Diagrama ER]("C:\Users\ariadne\Downloads\Captura de pantalla 2025-02-07 185852.png")
+![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
 # (Estimación)
 
