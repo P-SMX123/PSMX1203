@@ -175,10 +175,17 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 | **Optimización y Ajustes Finales**   | 18/04/25 | 27/04/25 | **Encargado** 👥   |
 | **Entrega del Proyecto**             | 30/04/25 | 06/05/25 | **Finalización** ✅ |
 
+
+## 11. **Diagrama ER** 🗂️
+
+Diagrama entidad-relación del proyecto:
+
+![Diagrama ER]("C:\Users\ariadne\Downloads\Captura de pantalla 2025-02-07 185852.png")
+
 # (Estimación)
 
 
-## **11. Recursos** 📦
+## **12. Recursos** 📦
 
 - **Bibliografía:**
 
