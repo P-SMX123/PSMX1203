@@ -178,7 +178,6 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 ## 11. **Diagrama ER** 🗂️
 
-Diagrama entidad-relación del proyecto:
 
 ![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
