@@ -183,8 +183,6 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 # Diagrama de Relaciones Entidad-Relación
 
-Este documento describe las relaciones entre las tablas en el proyecto de la aplicación web de hosting.
-
 ## Relaciones
 
 1️⃣ **Usuarios → Pagos**
