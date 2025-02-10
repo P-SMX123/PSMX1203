@@ -181,6 +181,47 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 
 ![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
+# Diagrama de Relaciones Entidad-Relación
+
+Este documento describe las relaciones entre las tablas en el proyecto de la aplicación web de hosting.
+
+## Relaciones
+
+1️⃣ **Usuarios → Pagos**
+
+- **Relación:** 1 a N (Uno a Muchos)
+- **Descripción:** Un usuario puede hacer muchos pagos, pero un pago pertenece a un solo usuario.
+- **Clave Foránea:** `Usuarios.id_usuario → Pagos.id_usuario`
+
+2️⃣ **Usuarios → Configuraciones**
+
+- **Relación:** 1 a N (Uno a Muchos)
+- **Descripción:** Un usuario puede tener varias configuraciones, pero cada configuración pertenece a un solo usuario.
+- **Clave Foránea:** `Usuarios.id_usuario → Configuraciones.id_usuario`
+
+3️⃣ **Planes_Hosting → Pagos**
+
+- **Relación:** 1 a N (Uno a Muchos)
+- **Descripción:** Cada pago está asociado a un solo plan de hosting, pero un plan de hosting puede ser adquirido muchas veces.
+- **Clave Foránea:** `Planes_Hosting.id_plan → Pagos.id_plan`
+
+4️⃣ **Planes_Hosting → Configuraciones**
+
+- **Relación:** 1 a N (Uno a Muchos)
+- **Descripción:** Cada configuración pertenece a un plan de hosting específico, pero un plan puede tener muchas configuraciones asociadas a diferentes usuarios.
+- **Clave Foránea:** `Planes_Hosting.id_plan → Configuraciones.id_plan`
+
+5️⃣ **Usuarios → Sitio_Web**
+
+- **Relación:** 1 a N (Uno a Muchos)
+- **Descripción:** Un usuario puede tener múltiples sitios web, pero un sitio web solo pertenece a un usuario.
+- **Clave Foránea:** `Usuarios.id_usuario → Sitio_Web.id_usuario`
+
+## Hashtags
+
+#ERD #DiagramaDeRelaciones #BaseDeDatos #ModeloEntidadRelacion #DesarrolloWeb #Hosting #GitHub
+
+
 # (Estimación)
 
 
