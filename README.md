@@ -176,51 +176,42 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 | **Entrega del Proyecto**             | 30/04/25 | 06/05/25 | **Finalización** ✅ |
 
 
-## 11. **Diagrama ER** 🗂️
+## 11. **# Diagrama de Relaciones Entidad-Relación** 🗂️
 
 
 ![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
-# Diagrama de Relaciones Entidad-Relación
-
 ## Relaciones
 
-1️⃣ **Usuarios → Pagos**
+### 1️⃣ **Usuarios → Pagos**
 
 - **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede hacer muchos pagos, pero un pago pertenece a un solo usuario.
+- **Descripción:** Un usuario puede realizar múltiples pagos a lo largo del tiempo, pero cada pago está asociado a un solo usuario.
 - **Clave Foránea:** `Usuarios.id_usuario → Pagos.id_usuario`
 
-2️⃣ **Usuarios → Configuraciones**
+### 2️⃣ **Usuarios → Configuraciones**
 
 - **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede tener varias configuraciones, pero cada configuración pertenece a un solo usuario.
+- **Descripción:** Un usuario puede tener varias configuraciones personalizadas, pero cada configuración está vinculada a un único usuario.
 - **Clave Foránea:** `Usuarios.id_usuario → Configuraciones.id_usuario`
 
-3️⃣ **Planes_Hosting → Pagos**
+### 3️⃣ **Planes_Hosting → Pagos**
 
 - **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Cada pago está asociado a un solo plan de hosting, pero un plan de hosting puede ser adquirido muchas veces.
+- **Descripción:** Cada pago está vinculado a un solo plan de hosting, pero un plan de hosting puede ser adquirido múltiples veces por diferentes usuarios.
 - **Clave Foránea:** `Planes_Hosting.id_plan → Pagos.id_plan`
 
-4️⃣ **Planes_Hosting → Configuraciones**
+### 4️⃣ **Planes_Hosting → Configuraciones**
 
 - **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Cada configuración pertenece a un plan de hosting específico, pero un plan puede tener muchas configuraciones asociadas a diferentes usuarios.
+- **Descripción:** Cada configuración está asociada a un plan de hosting específico, pero un plan de hosting puede tener múltiples configuraciones relacionadas, utilizadas por diferentes usuarios.
 - **Clave Foránea:** `Planes_Hosting.id_plan → Configuraciones.id_plan`
 
-5️⃣ **Usuarios → Sitio_Web**
+### 5️⃣ **Usuarios → Sitio_Web**
 
 - **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede tener múltiples sitios web, pero un sitio web solo pertenece a un usuario.
+- **Descripción:** Un usuario puede crear y gestionar múltiples sitios web, pero cada sitio web está asociado exclusivamente a un único usuario.
 - **Clave Foránea:** `Usuarios.id_usuario → Sitio_Web.id_usuario`
-
-## Hashtags
-
-#ERD #DiagramaDeRelaciones #BaseDeDatos #ModeloEntidadRelacion #DesarrolloWeb #Hosting #GitHub
-
-
-# (Estimación)
 
 
 ## **12. Recursos** 📦
