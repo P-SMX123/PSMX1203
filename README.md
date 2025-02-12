@@ -183,7 +183,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 - **Clave Foránea**: `Usuarios.id_usuario → Sitio_Web.id_usuario`
 
 
-## 11. **Resumen: DNS y DHCP con Pi-hole**
+## 11. **DNS y DHCP con Pi-hole**
 
 ### **1. Introducción al servicio (DNS y DHCP)**  
 **DNS** traduce los nombres de dominio a direcciones IP y **DHCP** asigna automáticamente direcciones IP a los dispositivos. Usamos **Pi-hole** para gestionar ambos servicios, mejorando la eficiencia de la red y bloqueando anuncios.
