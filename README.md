@@ -138,7 +138,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
 | **Documentación en GitHub**          | 23/01/25 | 29/04/25 | **Alejandro** 📁   |
-| **Documentación en GitHub**          | 23/01/25 | 29/04/25 | **Jiajie** 📁   |
+| **Documentación en Trello**          | 23/01/25 | 29/04/25 | **Jiajie** 📁   |
 | **Configuración del Firewall (Sophos)** | 10/02/25 | 17/02/25 | **Alejandro** 🔒|
 | **Configuración del DHCP**           | 13/02/25 | 20/02/25 | **Felipe** 🔧   |
 | **Configuración del Servidor Web**   | 17/02/25 | 24/02/25 | **Jiajie** 🛠️   |
