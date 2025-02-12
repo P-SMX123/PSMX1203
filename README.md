@@ -1,18 +1,15 @@
 ![Leonardo_Phoenix_10_A_futuristic_hightech_banner_featuring_the_0](https://github.com/user-attachments/assets/f485e7ab-a7d4-4f5b-9b10-8e2e60fea177)
+# **JAF Technology: Plataforma de Hosting Web** 🌐💻
 
-# **JAF Technology: Plataforma de hosting web** 🌐💻
 ## 1. **Idea seleccionada** 🧑‍💻
 
-El proyecto tiene como objetivo la creación de un servidor web en un sistema operativo **Linux (Ubuntu)** y el alojamiento de un sitio web dinámico. Este proyecto consiste en la creación de un servicio de alojamiento web similar a **cdmon**, para abordar la necesidad de los usuarios de alojar sus páginas web. Además, se incluirá una página web corporativa desarrollada con **HTML**, **CSS** y **JavaScript** y se incorporarán prácticas de seguridad, como la implementación de un **firewall** 🔒 y análisis de seguridad mediante **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**). También se analizará el tráfico de red usando **Wireshark** 🐟 para mejorar la seguridad y el rendimiento.
-
+El objetivo de este proyecto es la creación de un servidor web basado en **Linux (Ubuntu)** para alojar un sitio web dinámico. Se busca crear un servicio de hosting similar a **cdmon**, proporcionando una solución para los usuarios que necesiten alojar sus páginas web. Además, se desarrollará una página web corporativa utilizando **HTML**, **CSS** y **JavaScript**, e incorporaremos medidas de seguridad, como un **firewall** 🔒 y análisis de seguridad con **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**). También se analizará el tráfico de red utilizando **Wireshark** 🐟 para mejorar tanto la seguridad como el rendimiento.
 
 ## 2. **Motivo del proyecto**
 
-A nivel personal nos supone un desafío y es una gran oportunidad para aprender a hacer cosas nuevas. Indiferentemente de que haya algunas cosas que nos gusten o motiven más y otras menos, es un proyecto interesante, ya que ninguno de los integrantes hemos hecho algo parecido antes. Creemos que con la ayuda de nuestros profesores, puede salirnos muy bien y ser un gran proyecto.
+Este proyecto nos supone un desafío personal y una gran oportunidad de aprendizaje. Aunque algunos aspectos nos resulten más interesantes que otros, todos coincidimos en que es una experiencia única, ya que ninguno de los miembros del equipo ha trabajado en algo similar. Con la ayuda de nuestros profesores confiamos en que este será un gran proyecto.
 
-
-## 3. **Objetivos y Listado de tareas 📝**
-
+## 3. **Objetivos y listado de tareas** 📝
 
 1. **Configurar servidor web en Linux con Nginx** 🖥️:
    - Instalar **Ubuntu Server** y **Nginx**.
@@ -45,15 +42,13 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
    - Realizar pruebas de seguridad con **Burp Suite**.
 
 10. **Analizar tráfico de red con Wireshark** 🐟:
-      - Monitorizar el tráfico de red con **Wireshark**.
+   - Monitorizar el tráfico de red con **Wireshark**.
 
 11. **Optimización y rendimiento**:
-      - Ajustar configuraciones de **PHP** y **MySQL**.
-      - Implementar **caché** en **Nginx**. 
+   - Ajustar configuraciones de **PHP** y **MySQL**.
+   - Implementar **caché** en **Nginx**.
 
-
-
-## 4. **Asignar roles y responsabilidades del equipo 👥**
+## 4. **Asignar roles y responsabilidades del equipo** 👥
 
 - **Alejandro (Encargado del Firewall y GitHub)** 🔐:
   - **Firewall**: Configuración del **firewall Sophos**.
@@ -69,9 +64,9 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 - **Felipe (Encargado de la Red)** 🌐:
   - **DNS**: Configuración del **DNS** para la correcta resolución de dominios.
   - **Webmin**: Administración del servidor mediante **Webmin**.
-  - **Optimización de Nginx y PHP/MySQL:** Mejora del rendimiento general del servidor.
+  - **Optimización de Nginx y PHP/MySQL**: Mejora del rendimiento general del servidor.
 
-## 5. **Diagrama de la red 🌐**
+## 5. **Diagrama de la red** 🌐
 
 - **Servidor Web (Nginx)**: Conectado al **Servidor de Base de Datos (MySQL)**.
 - **Firewall (Sophos)**: Protege todos los servidores del tráfico no deseado.
@@ -81,13 +76,12 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 - **Wireshark**: Monitorea el tráfico de red para asegurar el rendimiento y la seguridad.
 
 <img src="https://github.com/user-attachments/assets/22408195-4e4d-46bd-b134-c15d54b684b9" width="750"/>
-<p>Diagrama de red en cisco</p>
+<p>Diagrama de red en Cisco</p>
 
 <img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="750"/>
-<p>Diagrama de red en canva</p>
+<p>Diagrama de red en Canva</p>
 
-
-## 6. **Tecnologías y Servicios a implementar 🛠️🚀**
+## 6. **Tecnologías y Servicios a implementar** 🛠️🚀
 
 - **Ubuntu Server**: Sistema operativo para la gestión y administración del servidor web.
 - **Nginx**: Servidor web utilizado para alojar y servir el contenido dinámico de las páginas web.
@@ -100,74 +94,55 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 - **SSL**: Implementación de un sistema de cifrado de comunicaciones para garantizar la seguridad de las conexiones HTTPS entre los usuarios y el servidor.
 - **TrueNAS**: Sistema para gestionar las copias de seguridad, asegurando la protección y recuperación de datos.
 
-
-## 7. **Hardware virtual a utilizar 🖥️**
+## 7. **Hardware virtual a utilizar** 🖥️
 
 **Máquinas virtuales**:
 - **Servidor Web (Nginx)**: 
-  - **CPU:** ? núcleos.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ? GB.
+  - **CPU**: 1 núcleo.
+  - **RAM**: 2 GB.
+  - **Almacenamiento**: 20 GB.
 
 - **Servidor de Base de Datos (MySQL)**: 
-  - **CPU:** ? núcleos.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ? GB.
+  - **CPU**: ? núcleos.
+  - **RAM**: ? GB.
+  - **Almacenamiento**: ? GB.
 
 - **Firewall (Sophos)**: 
-  - **CPU:** ? núcleo.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ? GB.
+  - **CPU**: 1 núcleo.
+  - **RAM**: 4 GB.
+  - **Almacenamiento**: 20 GB.
 
-- **Servidor DNS**: 
-  - **CPU:** ? núcleo.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ? GB.
+- **Servidor DNS y DHCP (Pi-hole)**: 
+  - **CPU**: 1 núcleo.
+  - **RAM**: 2 GB.
+  - **Almacenamiento**: 20 GB.
 
 - **Kali Linux (Pentesting y Burp Suite)**: 
-  - **CPU:** ? núcleos.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ?G B.
+  - **CPU**: ? núcleos.
+  - **RAM**: ? GB.
+  - **Almacenamiento**: ? GB.
 
 - **Servidor Webmin**: 
-  - **CPU:** ? núcleo.
-  - **RAM:** ? GB.
-  - **Almacenamiento:** ? GB.
+  - **CPU**: ? núcleo.
+  - **RAM**: ? GB.
+  - **Almacenamiento**: ? GB.
 
+## 8. **Sistemas operativos a utilizar** 🖥️
 
-
-## 8. **Sistemas operativos a utilizar 🖥️**
-
-- **Ubuntu Server**: Para las todas las maquinas excepto la de la prueba de penetración.
+- **Ubuntu Server**: Para todas las máquinas excepto la de la prueba de penetración.
 - **Kali Linux**: Para pruebas de penetración y seguridad.
-- **Ubuntu Desktop** (opcional): Para tareas de desarrollo con interfaz gráfica.
+- **Ubuntu Desktop**: Para usarla de cliente y probar el DNS y DHCP y otras pruebas que requieran interfaz gráfica.
 
-
-## 9. **Sistemas operativos a utilizar 🖥️**
-
-- Introducción al servicio (DNS y al DHCP)
-- ¿Qué es?
-- ¿Por qué es necesario?
-- ¿Dónde hay información oficial?
-- Extras
-- Instalación (DNS y del DHCP)
-- Detalles de la MV
-- Pasos a seguir
-- Incidencias
-
-
-
-## 10. **Diagrama de Gantt 📅**
-
+## 9. **Diagrama de Gantt** 📅
 
 | Fase/Actividad                      | Inicio   | Fin      | Responsable(s)       |
 |--------------------------------------|----------|----------|----------------------|
-| **Documentación en GitHub**          | 23/01/25 | 29/04/25 | **Encargado** 📁   |
-| **Configuración del Firewall (Sophos)** | 10/02/25 | 17/02/25 | **Encargado** 🔒   |
-| **Configuración del DHCP**           | 13/02/25 | 20/02/25 | **Encargado** 🔧   |
-| **Configuración del Servidor Web**   | 17/02/25 | 24/02/25 | **Encargado** 🛠️   |
-| **Configuración del DNS**            | 27/02/25 | 06/03/25 | **Encargado** 🌐   |
-| **Desarrollo Web (HTML/CSS/JS)**     | 10/03/25 | 20/03/25 | **Encargado** 🎨   |
+| **Documentación en GitHub**          | 23/01/25 | 29/04/25 | **Alejandro** 📁   |
+| **Configuración del Firewall (Sophos)** | 10/02/25 | 17/02/25 | **Alejandro** 🔒   |
+| **Configuración del DHCP**           | 13/02/25 | 20/02/25 | **Felipe** 🔧   |
+| **Configuración del Servidor Web**   | 17/02/25 | 24/02/25 | **Jiajie** 🛠️   |
+| **Configuración del DNS**            | 27/02/25 | 06/03/25 | **Felipe** 🌐   |
+| **Desarrollo Web (HTML/CSS/JS)**     | 10/03/25 | 20/03/25 | **Todos** 🎨   |
 | **Integración de Base de Datos**     | 21/03/25 | 25/03/25 | **Encargado** 📊   |
 | **Configuración de PHP y Webmin**    | 26/03/25 | 31/03/25 | **Encargado** 🌐   |
 | **Pruebas de Seguridad (Pentesting)**| 01/04/25 | 10/04/25 | **Encargado** 🕵️‍♂️ |
@@ -175,43 +150,93 @@ A nivel personal nos supone un desafío y es una gran oportunidad para aprender 
 | **Optimización y Ajustes Finales**   | 18/04/25 | 27/04/25 | **Encargado** 👥   |
 | **Entrega del Proyecto**             | 30/04/25 | 06/05/25 | **Finalización** ✅ |
 
-
-## 11. **# Diagrama de Relaciones Entidad-Relación** 🗂️
-
+## 10. **Diagrama de Relaciones Entidad-Relación** 🗂️
 
 ![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
-## Relaciones
+### Relaciones
 
-### 1️⃣ **Usuarios → Pagos**
+#### 1️⃣ **Usuarios → Pagos**
+- **Relación**: 1 a N (Uno a Muchos)
+- **Descripción**: Un usuario puede realizar varios pagos, pero cada pago pertenece a un único usuario.
+- **Clave Foránea**: `Usuarios.id_usuario → Pagos.id_usuario`
 
-- **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede realizar múltiples pagos a lo largo del tiempo, pero cada pago está asociado a un solo usuario.
-- **Clave Foránea:** `Usuarios.id_usuario → Pagos.id_usuario`
+#### 2️⃣ **Usuarios → Configuraciones**
+- **Relación**: 1 a N (Uno a Muchos)
+- **Descripción**: Un usuario puede tener varias configuraciones, pero cada configuración está asociada a un solo usuario.
+- **Clave Foránea**: `Usuarios.id_usuario → Configuraciones.id_usuario`
 
-### 2️⃣ **Usuarios → Configuraciones**
+#### 3️⃣ **Planes_Hosting → Pagos**
+- **Relación**: 1 a N (Uno a Muchos)
+- **Descripción**: Cada pago corresponde a un único plan de hosting, pero un plan puede ser adquirido varias veces.
+- **Clave Foránea**: `Planes_Hosting.id_plan → Pagos.id_plan`
 
-- **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede tener varias configuraciones personalizadas, pero cada configuración está vinculada a un único usuario.
-- **Clave Foránea:** `Usuarios.id_usuario → Configuraciones.id_usuario`
+#### 4️⃣ **Planes_Hosting → Configuraciones**
+- **Relación**: 1 a N (Uno a Muchos)
+- **Descripción**: Un plan de hosting puede tener muchas configuraciones, pero cada configuración pertenece a un único plan.
+- **Clave Foránea**: `Planes_Hosting.id_plan → Configuraciones.id_plan`
 
-### 3️⃣ **Planes_Hosting → Pagos**
+#### 5️⃣ **Usuarios → Sitio_Web**
+- **Relación**: 1 a N (Uno a Muchos)
+- **Descripción**: Un usuario puede crear y gestionar múltiples sitios web, pero cada sitio web está asociado exclusivamente a un único usuario.
+- **Clave Foránea**: `Usuarios.id_usuario → Sitio_Web.id_usuario`
 
-- **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Cada pago está vinculado a un solo plan de hosting, pero un plan de hosting puede ser adquirido múltiples veces por diferentes usuarios.
-- **Clave Foránea:** `Planes_Hosting.id_plan → Pagos.id_plan`
 
-### 4️⃣ **Planes_Hosting → Configuraciones**
+## 11. **Resumen: DNS y DHCP con Pi-hole**
 
-- **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Cada configuración está asociada a un plan de hosting específico, pero un plan de hosting puede tener múltiples configuraciones relacionadas, utilizadas por diferentes usuarios.
-- **Clave Foránea:** `Planes_Hosting.id_plan → Configuraciones.id_plan`
+### **1. Introducción al servicio (DNS y DHCP)**  
+**DNS** traduce los nombres de dominio a direcciones IP y **DHCP** asigna automáticamente direcciones IP a los dispositivos. Usamos **Pi-hole** para gestionar ambos servicios, mejorando la eficiencia de la red y bloqueando anuncios.
 
-### 5️⃣ **Usuarios → Sitio_Web**
+### **2. ¿Qué es DNS y por qué es necesario?**  
+**DNS** convierte los nombres de dominio (ej. `jaftechnology.com`) en direcciones IP. Es esencial para acceder a sitios web por su nombre y mejora la velocidad de navegación gracias a la caché.
 
-- **Relación:** 1 a N (Uno a Muchos)
-- **Descripción:** Un usuario puede crear y gestionar múltiples sitios web, pero cada sitio web está asociado exclusivamente a un único usuario.
-- **Clave Foránea:** `Usuarios.id_usuario → Sitio_Web.id_usuario`
+**¿Por qué es necesario?**  
+Sin **DNS** no podríamos acceder a sitios web fácilmente usando sus nombres y la navegación sería más compleja.
+
+**¿Dónde hay información oficial?**  
+Para más detalles, visita la [documentación de Pi-hole](https://docs.pi-hole.net/).
+
+### **3. ¿Qué es DHCP y por qué es necesario?**  
+**DHCP** asigna automáticamente direcciones IP a los dispositivos en la red. Es necesario para evitar configuraciones manuales y conflictos de IP.
+
+**¿Por qué es necesario?**  
+El uso de **DHCP** facilita la administración de red al asignar direcciones únicas automáticamente a los dispositivos.
+
+**¿Dónde hay información oficial?**  
+Consulta la [documentación de Pi-hole](https://docs.pi-hole.net/) para más información.
+
+### **4. Instalación de DNS y DHCP con Pi-hole**
+
+#### **4.1. Requisitos**  
+- Servidor con **Ubuntu**.
+- Conexión a Internet.
+- Permisos de administrador.
+
+#### **4.2. Actualización del sistema**  
+Antes de instalar Pi-hole, actualiza el sistema con:  
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### **4.3. Instalación de Pi-hole**  
+Instala Pi-hole con el siguiente comando:  
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
+
+#### **4.4. Configuración del servidor DNS**  
+Selecciona un proveedor de DNS (Google, Cloudflare, etc.) y activa el bloqueo de anuncios.
+
+#### **4.5. Habilitación del servidor DHCP**  
+1. Accede a la interfaz web en `http://pi.hole/admin`.  
+2. Activa el servidor **DHCP** y configura el rango de IPs a asignar.  
+3. Desactiva el **DHCP** del router para evitar conflictos.
+
+### **5. Incidencias**  
+Tuvimos problemas con Bind9 por lo que decidimos usar Pi-hole que también nos dió problema pero tras reinstalarlo, configurarlo nuevamente y con ayuda de los profesores todo funcionó correctamente.
+
+### **6. Conclusión**  
+Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento.
 
 
 ## **12. Recursos** 📦
