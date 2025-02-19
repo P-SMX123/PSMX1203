@@ -239,9 +239,78 @@ Tuvimos problemas con Bind9 por lo que decidimos usar Pi-hole que también nos d
 ### **6. Conclusión**  
 Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento.
 
-## **12. ** 📦
+## **12.APACHE-PHP-HTML ** 📦
 
+### **1. Introducción** 
+Apache es un servidor web de código abierto que permite alojar aplicaciones y sitios web. PHP es un lenguaje de programación ampliamente utilizado para el desarrollo web. En esta guía, explicamos cómo instalar y configurar ambos en Ubuntu.
 
+### **2. ¿Qué es Apache y por qué es necesario?** 
+Apache es un servidor HTTP que permite a los usuarios acceder a páginas web alojadas en un servidor. Es altamente configurable y compatible con múltiples tecnologías.
+
+**¿Por qué es necesario?** 
+Apache permite la publicación de sitios web y aplicaciones en un entorno seguro y escalable.
+
+### **3. ¿Qué es PHP y por qué es necesario?** 
+PHP es un lenguaje de programación de servidor que se utiliza para la creación de sitios dinámicos y aplicaciones web.
+
+**¿Por qué es necesario?**
+PHP permite el procesamiento de datos en el servidor, la conexión con bases de datos y la generación de contenido dinámico.
+
+### **4. Instalación de Apache y PHP en Ubuntu**
+
+**4.1. Requisitos**
+
+-Servidor con **Ubuntu**.
+-Conexión a Internet.
+-Permisos de administrador.
+
+**4.2. Actualización del sistema**
+
+Antes de instalar Pi-hole, actualiza el sistema con:
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+**4.3. Instalación del Apache**
+
+Para instalar Apache, ejecuta el siguiente comando:
+```bash
+sudo apt install apache2 -y
+```
+
+Para verificar que Apache está en ejecución:
+```bash
+sudo systemctl status apache2
+```
+
+Si Apache no está activo, puedes iniciarlo con:
+```bash
+sudo systemctl start apache2
+```
+
+Para asegurarte de que Apache se inicie automáticamente al arrancar el sistema:
+```bash
+sudo systemctl enable apache2
+```
+
+### **4.4. Instalación de PHP**
+
+Para instalar PHP junto con el módulo de Apache y soporte para MySQL, ejecuta:
+```bash
+sudo apt install php libapache2-mod-php php-mysql -y
+```
+
+Verifica la instalación de PHP con:
+```bash
+php -v
+```
+
+### **4.5. Configuración de Apache para PHP**
+
+Para asegurarte de que Apache prioriza los archivos PHP, edita el archivo de configuración:
+```bash
+sudo nano /etc/apache2/mods-enabled/dir.conf
+```
 
 
 ## **13. Recursos** 📦
