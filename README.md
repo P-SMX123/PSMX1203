@@ -239,8 +239,12 @@ Tuvimos problemas con Bind9 por lo que decidimos usar Pi-hole que también nos d
 ### **6. Conclusión**  
 Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento.
 
+## **12. ** 📦
 
-## **12. Recursos** 📦
+
+
+
+## **13. Recursos** 📦
 
 - **Bibliografía:**
 
@@ -255,3 +259,6 @@ Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloquea
 
 
 - **Cursos:**
+
+
+
