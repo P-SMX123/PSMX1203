@@ -293,7 +293,7 @@ Para asegurarte de que Apache se inicie automáticamente al arrancar el sistema:
 sudo systemctl enable apache2
 ```
 
-### **4.4. Instalación de PHP**
+**4.4. Instalación de PHP**
 
 Para instalar PHP junto con el módulo de Apache y soporte para MySQL, ejecuta:
 ```bash
@@ -305,13 +305,60 @@ Verifica la instalación de PHP con:
 php -v
 ```
 
-### **4.5. Configuración de Apache para PHP**
+**4.5. Configuración de Apache para PHP**
 
 Para asegurarte de que Apache prioriza los archivos PHP, edita el archivo de configuración:
 ```bash
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 
+Modifica la línea:
+```bash
+DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+```
+
+Asegúrate de que index.php sea el primero:
+```bash
+DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+```
+
+Guarda y cierra el archivo, luego reinicia Apache:
+```bash
+sudo systemctl restart apache2
+```
+
+### **5. Pruebas y solución de incidencias**
+
+**5.1. Verificar que Apache y PHP funcionan correctamente**
+
+Crea un archivo de prueba:
+```bash
+sudo nano /var/www/html/info.php
+```
+
+Añade el siguiente contenido:
+```bash
+<?php
+phpinfo();
+?>
+```
+
+Guarda y cierra el archivo. Luego accede a:
+```bash
+http://localhost/info.php
+```
+
+**5.2. Problemas comunes y soluciones**
+
+Apache no inicia: Ejecuta ```bash sudo systemctl restart apache2.```
+
+Página en blanco en info.php: Verifica la instalación de PHP con ```bash php -v.```
+
+Acceso denegado a archivos PHP: Ajusta permisos con ```bash sudo chmod -R 755 /var/www/html/.```
+
+## **6. Conclusión**
+
+Con estos pasos, hemos instalado y configurado Apache y PHP en Ubuntu. Ahora el servidor está listo para alojar aplicaciones web dinámicas.
 
 ## **13. Recursos** 📦
 
