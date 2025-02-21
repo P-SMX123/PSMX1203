@@ -374,11 +374,11 @@ PfSense está basado en el sistema operativo FreeBSD, lo que le proporciona esta
 
 -Firewall de alto rendimiento con filtrado de paquetes.
 
--VPN (OpenVPN, IPsec, WireGuard) para conexiones seguras.
+-VPN para conexiones seguras.
 
 -Balanceo de carga y tolerancia a fallos.
 
--Control de tráfico y calidad de servicio (QoS).
+-Control de tráfico y calidad de servicio .
 
 -Registro y monitoreo del tráfico en tiempo real.
 
