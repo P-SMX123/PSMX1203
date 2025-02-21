@@ -239,7 +239,7 @@ Tuvimos problemas con Bind9 por lo que decidimos usar Pi-hole que también nos d
 ### **6. Conclusión**  
 Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento.
 
-## **12.APACHE-PHP-HTML ** 📦
+## 12.APACHE-PHP-HTML  📦
 
 ### **1. Introducción** 
 Apache es un servidor web de código abierto que permite alojar aplicaciones y sitios web. PHP es un lenguaje de programación ampliamente utilizado para el desarrollo web. En esta guía, explicamos cómo instalar y configurar ambos en Ubuntu.
@@ -360,7 +360,7 @@ Acceso denegado a archivos PHP: Ajusta permisos con ```bash sudo chmod -R 755 /v
 
 Con estos pasos, hemos instalado y configurado Apache y PHP en Ubuntu. Ahora el servidor está listo para alojar aplicaciones web dinámicas.
 
-## **13. **Pfsense** 
+## 13. **Pfsense** 
 
 **1.	¿Qué es pfSense y para qué se utiliza?**
 
