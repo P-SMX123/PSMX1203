@@ -363,12 +363,15 @@ Con estos pasos, hemos instalado y configurado Apache y PHP en Ubuntu. Ahora el 
 ## **13. **Pfsense** 
 
 **1.	¿Qué es pfSense y para qué se utiliza?**
+
 Es un software de firewall y enrutador de código abierto. Se utiliza para proteger redes, gestionar el tráfico y ofrecer funciones avanzadas de seguridad en entornos empresariales y domésticos.
 
 **2.	¿En qué sistema se basa?**
+
 PfSense está basado en el sistema operativo FreeBSD, lo que le proporciona estabilidad, seguridad y compatibilidad con diversas configuraciones de red.
 
 **3.	¿Cuáles son las principales características de pfSense?**
+
 -Firewall de alto rendimiento con filtrado de paquetes.
 -VPN (OpenVPN, IPsec, WireGuard) para conexiones seguras.
 -Balanceo de carga y tolerancia a fallos.
@@ -377,9 +380,11 @@ PfSense está basado en el sistema operativo FreeBSD, lo que le proporciona esta
 -Compatibilidad con complementos para ampliar funcionalidades.
 
 **4.	¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual?**
+
 La instalación de pfSense se realiza descargando la imagen ISO, creando un medio de instalación y configurando el sistema en un hardware compatible o máquina virtual. Al instalarlo en un entorno virtual, es importante considerar la asignación de recursos adecuados.
 
 **5.	¿Consideras pfSense una opción viable para empresas y redes domésticas?**
+
 Sí, pfSense es una opción viable tanto para empresas como para redes domésticas debido a su flexibilidad, facilidad de uso y su conjunto de características avanzada. Ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
 
 
