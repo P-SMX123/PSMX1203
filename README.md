@@ -373,10 +373,15 @@ PfSense está basado en el sistema operativo FreeBSD, lo que le proporciona esta
 **3.	¿Cuáles son las principales características de pfSense?**
 
 -Firewall de alto rendimiento con filtrado de paquetes.
+
 -VPN (OpenVPN, IPsec, WireGuard) para conexiones seguras.
+
 -Balanceo de carga y tolerancia a fallos.
+
 -Control de tráfico y calidad de servicio (QoS).
+
 -Registro y monitoreo del tráfico en tiempo real.
+
 -Compatibilidad con complementos para ampliar funcionalidades.
 
 **4.	¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual?**
