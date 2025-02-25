@@ -393,6 +393,38 @@ La instalación de pfSense se realiza descargando la imagen ISO, creando un medi
 Sí, pfSense es una opción viable tanto para empresas como para redes domésticas debido a su flexibilidad, facilidad de uso y su conjunto de características avanzada. Ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
 
 
+## 13. **SOPHOS** 
+
+**1.	¿Qué es Sophos y para qué se utiliza?**
+
+Shophos ofrece soluciones de protección para redes, dispositivos y sistemas informáticos. Sus productos incluyen firewalls, antivirus, protección contra malware y herramientas de gestión de seguridad, tanto para entornos empresariales como domésticos.
+
+**2.	¿En qué sistema se basa?**
+
+Sophos utiliza un sistema propietario y tecnologías avanzadas basadas en la nube para proteger a sus usuarios compatible en Windows, macOS y Linux. 
+
+**3.	¿Cuáles son las principales características de Sophos?**
+
+-Protección avanzada contra amenazas: Incluye defensa contra malware, ransomware y otras amenazas cibernéticas.
+
+-Firewall de nueva generación (NGFW): Permite un control granular del tráfico y la aplicación de políticas de seguridad.
+
+-Protección contra intrusiones y filtrado web: Detecta y previene intentos de intrusión y controla el acceso a sitios web peligrosos.
+
+-Gestión centralizada: Ofrece una consola única para gestionar la seguridad de todos los dispositivos conectados.
+
+-VPN y acceso remoto seguro: Facilita la conexión remota segura para empleados.
+
+-Prevención de pérdida de datos (DLP): Ayuda a proteger información sensible y cumple con normativas de privacidad.
+
+**4.	¿Cómo se instala y configura Sophos? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual?**
+
+La instalación de Sophos depende del producto específico, pero generalmente incluye la descarga de la solución desde su portal, la instalación en un servidor o dispositivo y la configuración mediante la consola de administración centralizada. En entornos virtuales, es esencial verificar la compatibilidad con la plataforma de virtualización (como VMware o Hyper-V) y asegurar que los recursos del sistema (CPU, memoria y almacenamiento) sean suficientes para no afectar el rendimiento.
+
+**5.	¿Consideras sophos una opción viable para empresas y redes domésticas?**
+
+Sí, Sophos es una opción muy viable tanto para empresas como para redes domésticas. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además, su interfaz amigable y su soporte técnico hacen que sea una opción popular.
+
 ## **14. Recursos** 📦
 
 - **Bibliografía:**
