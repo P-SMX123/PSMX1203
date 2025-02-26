@@ -11,44 +11,44 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 
 ## 3. **Objetivos y listado de tareas** 📝
 
-1. **Configurar servidor web en Linux con Nginx** 🖥️:
+1. **Configurar servidor web en Linux con Nginx**:
    - Instalar **Ubuntu Server** y **Nginx**.
    - Configurar **hosts virtuales** y optimizar Nginx.
 
-2. **Crear y alojar un sitio web dinámico** 💡:
+2. **Crear y alojar un sitio web dinámico**:
    - Desarrollar el sitio con **HTML**, **CSS** y **JavaScript**.
    - Integrar **PHP** y **MySQL** para contenido dinámico.
 
-3. **Implementar base de datos MySQL** 📊:
+3. **Implementar base de datos MySQL**:
    - Instalar y configurar **MySQL**.
    - Conectar la base de datos al sitio web.
 
 4. **Administrar servidor con Webmin**:
    - Instalar y configurar **Webmin** para gestión remota.
 
-5. **Instalar y configurar PHP** 🔧:
+5. **Instalar y configurar PHP**:
    - Instalar **PHP** y configurarlo para **Nginx**.
 
-6. **Configurar DNS y SSL** 🌐🔐:
+6. **Configurar DNS y SSL**:
    - Configurar **DNS** y **SSL** para seguridad HTTPS.
 
 7. **Desarrollar página web corporativa**:
    - Crear una página web moderna y responsiva.
 
-8. **Asegurar el servidor con firewall (Sophos)** 🔒:
+8. **Asegurar el servidor con firewall (Sophos)**:
    - Configurar **Sophos** para protección del servidor.
 
-9. **Pruebas de penetración con Burp Suite** 🛠️:
+9. **Pruebas de penetración con Burp Suite**:
    - Realizar pruebas de seguridad con **Burp Suite**.
 
-10. **Analizar tráfico de red con Wireshark** 🐟:
+10. **Analizar tráfico de red con Wireshark**:
    - Monitorizar el tráfico de red con **Wireshark**.
 
 11. **Optimización y rendimiento**:
    - Ajustar configuraciones de **PHP** y **MySQL**.
    - Implementar **caché** en **Nginx**.
 
-## 4. **Asignar roles y responsabilidades del equipo** 👥
+## 4. **Asignar roles y responsabilidades del equipo**
 
 - **Alejandro (Encargado del Firewall y GitHub)** 🔐:
   - **Firewall**: Configuración del **firewall Sophos**.
@@ -75,7 +75,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 - **Kali Linux (Pentesting)**: Realiza las pruebas de penetración.
 - **Wireshark**: Monitorea el tráfico de red para asegurar el rendimiento y la seguridad.
 
-<img src="https://github.com/user-attachments/assets/22408195-4e4d-46bd-b134-c15d54b684b9" width="750"/>
+<img src="https://github.com/user-attachments/assets/458fd8ed-352b-4bef-bf83-6d45b8919da6" width="750"/>
 <p>Diagrama de red en Cisco</p>
 
 <img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="750"/>
@@ -435,6 +435,7 @@ Sí, Sophos es una opción muy viable tanto para empresas como para redes domés
 
 
 - **Webgrafía:**
+
 
 
 
