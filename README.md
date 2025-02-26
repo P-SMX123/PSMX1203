@@ -425,10 +425,28 @@ La instalación de Sophos depende del producto específico, pero generalmente in
 
 Sí, Sophos es una opción muy viable tanto para empresas como para redes domésticas. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además, su interfaz amigable y su soporte técnico hacen que sea una opción popular.
 
+## 15. **Port Forward** 
 
-**  ¿Qué es el port forward? Explica cómo lo has configurado.**
+**1.  ¿Qué es port Forward?**
 
-## **14. Recursos** 📦
+Es un proceso mediante el cual se configuran los routers o cortafuegos para permitir que el tráfico de la red externa llegue a un dispositivo específico dentro de una red privada local.
+El port forwarding es necesario en situaciones donde quieres que un dispositivo de tu red local sea accesible desde el exterior.
+
+**2. ¿Cómo funciona el port forwarding?**
+
+El router tiene una dirección IP pública y un número de puertos que están relacionados con servicios específicos.
+Cuando alguien desde fuera de tu red intenta acceder a tu dirección IP pública usando un puerto determinado, el router dirige ese tráfico hacia un dispositivo de la red local que tiene ese puerto abierto.
+
+**3. ¿¿Por qué es importante?**
+
+Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como:
+
+-Servidores web (HTTP).
+-Juegos en línea.
+-Cámaras de seguridad.
+-Servicios de acceso remoto.
+
+## **16. Recursos** 
 
 - **Bibliografía:**
 
