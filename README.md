@@ -442,8 +442,11 @@ Cuando alguien desde fuera de tu red intenta acceder a tu dirección IP pública
 Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como:
 
 -Servidores web (HTTP).
+
 -Juegos en línea.
+
 -Cámaras de seguridad.
+
 -Servicios de acceso remoto.
 
 ## **16. Recursos** 
