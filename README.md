@@ -77,6 +77,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 
 <img src="https://github.com/user-attachments/assets/458fd8ed-352b-4bef-bf83-6d45b8919da6" width="750"/>
 <p>Diagrama de red en Cisco</p>
+La ip externa que nos proporciona el centro es la 100.77.20.X, la ip pública es 77.231.11.106 y la privada es: 10.1.2.X.
 
 <img src="https://github.com/user-attachments/assets/3bc51b45-6d9a-4257-9b8a-16880e643b40" width="750"/>
 <p>Diagrama de red en Canva</p>
@@ -153,10 +154,6 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 
 ## 10. **Diagrama de Relaciones Entidad-Relación** 🗂️
 
-![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
-
-### Relaciones
-
 #### 1️⃣ **Usuarios → Pagos**
 - **Relación**: 1 a N (Uno a Muchos)
 - **Descripción**: Un usuario puede realizar varios pagos, pero cada pago pertenece a un único usuario.
@@ -182,6 +179,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 - **Descripción**: Un usuario puede crear y gestionar múltiples sitios web, pero cada sitio web está asociado exclusivamente a un único usuario.
 - **Clave Foránea**: `Usuarios.id_usuario → Sitio_Web.id_usuario`
 
+![Diagrama ER](https://github.com/P-SMX123/PSMX1203/blob/main/Captura%20de%20pantalla%202025-02-07%20185852.png)
 
 ## 11. **DNS y DHCP con Pi-hole** 🌍
 
@@ -201,10 +199,10 @@ Para más detalles, visita la [documentación de Pi-hole](https://docs.pi-hole.n
 **DHCP** asigna automáticamente direcciones IP a los dispositivos en la red. Es necesario para evitar configuraciones manuales y conflictos de IP.
 
 **¿Por qué es necesario?**  
-El uso de **DHCP** facilita la administración de red al asignar direcciones únicas automáticamente a los dispositivos.
+El uso de **DHCP** facilita la administración de la red al asignar direcciones únicas automáticamente a los dispositivos. Sin **DHCP**, cada dispositivo necesitaría ser configurado manualmente, lo que puede causar conflictos y errores en la red.
 
 **¿Dónde hay información oficial?**  
-Consulta la [documentación de Pi-hole](https://docs.pi-hole.net/) para más información.
+Consulta la [página de Pi-hole](https://docs.pi-hole.net/) para más información.
 
 ### **4. Instalación de DNS y DHCP con Pi-hole**
 
@@ -224,20 +222,32 @@ Instala Pi-hole con el siguiente comando:
 ```bash
 curl -sSL https://install.pi-hole.net | bash
 ```
+![image](https://github.com/user-attachments/assets/13d9959b-1b35-47d0-b186-63971bef9acc)
+
 
 #### **4.4. Configuración del servidor DNS**  
 Selecciona un proveedor de DNS (Google, Cloudflare, etc.) y activa el bloqueo de anuncios.
+![image](https://github.com/user-attachments/assets/0073e040-7a5c-46c0-b06e-ff0cadae7eb8)
 
 #### **4.5. Habilitación del servidor DHCP**  
 1. Accede a la interfaz web en `http://pi.hole/admin`.  
-2. Activa el servidor **DHCP** y configura el rango de IPs a asignar.  
-3. Desactiva el **DHCP** del router para evitar conflictos.
+2. Activa el servidor **DHCP** desde la pestaña **Settings** > **DHCP**.
+3. Configura el rango de IPs a asignar. Por ejemplo, si tu red usa el rango `192.168.1.0/24`, puedes asignar el rango de IPs de `192.168.1.100` a `192.168.1.200`.
+4. **Desactiva el servicio DHCP** en tu router para evitar conflictos en la asignación de IPs, ya que solo debe haber un servidor DHCP en la red.
+![image](https://github.com/user-attachments/assets/2b2b00c4-5235-43b3-a811-a4425e1e6743)
 
-### **5. Incidencias**  
-Tuvimos problemas con Bind9 por lo que decidimos usar Pi-hole que también nos dió problema pero tras reinstalarlo, configurarlo nuevamente y con ayuda de los profesores todo funcionó correctamente.
+### **5. ¿Por qué utilizar Pi-hole para gestionar DHCP?**  
+Usar Pi-hole para gestionar **DNS** y **DHCP** tiene varias ventajas:
 
-### **6. Conclusión**  
-Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento.
+- **Centralización**: Al gestionar ambos servicios desde una sola interfaz, facilita el mantenimiento de la red.
+- **Optimización de la red**: El DHCP de Pi-hole asigna IPs de manera eficiente y el bloqueo de anuncios mejora la velocidad de navegación.
+- **Seguridad**: Tener un control único sobre ambos servicios nos permite tener mejor visibilidad sobre los dispositivos conectados y gestionar posibles bloqueos.
+
+### **6. Incidencias**  
+Tuvimos problemas con **Bind9**, lo que nos llevó a optar por Pi-hole, que inicialmente también presentó algunos inconvenientes. Sin embargo, tras reinstalarlo, configurarlo nuevamente y con la ayuda de los profesores, todo comenzó a funcionar correctamente.
+
+### **7. Conclusión**  
+Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloqueando anuncios y optimizando el rendimiento. La centralización de estos servicios en una única plataforma facilitó el control y mantenimiento de la red en lugar de tener aquí el DNS y el DHCP en el firewall.
 
 ## 12. APACHE, PHP y HTML  📦
 
@@ -437,7 +447,7 @@ El port forwarding es necesario en situaciones donde quieres que un dispositivo 
 El router tiene una dirección IP pública y un número de puertos que están relacionados con servicios específicos.
 Cuando alguien desde fuera de tu red intenta acceder a tu dirección IP pública usando un puerto determinado, el router dirige ese tráfico hacia un dispositivo de la red local que tiene ese puerto abierto.
 
-**3. ¿¿Por qué es importante?**
+**3. ¿Por qué es importante?**
 
 Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como:
 
@@ -448,6 +458,9 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 -Cámaras de seguridad.
 
 -Servicios de acceso remoto.
+
+**4. Conlusión**
+Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
 ## **16. Recursos**  📚
 
