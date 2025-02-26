@@ -425,6 +425,9 @@ La instalación de Sophos depende del producto específico, pero generalmente in
 
 Sí, Sophos es una opción muy viable tanto para empresas como para redes domésticas. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además, su interfaz amigable y su soporte técnico hacen que sea una opción popular.
 
+
+**  ¿Qué es el port forward? Explica cómo lo has configurado.**
+
 ## **14. Recursos** 📦
 
 - **Bibliografía:**
