@@ -5,7 +5,7 @@
 
 El objetivo de este proyecto es la creación de un servidor web basado en **Linux (Ubuntu)** para alojar un sitio web dinámico. Se busca crear un servicio de hosting similar a **cdmon**, proporcionando una solución para los usuarios que necesiten alojar sus páginas web. Además, se desarrollará una página web corporativa utilizando **HTML**, **CSS** y **JavaScript**, e incorporaremos medidas de seguridad, como un **firewall** 🔒 y análisis de seguridad con **pentesting** 🕵️‍♂️ (incluyendo **Burp Suite**). También se analizará el tráfico de red utilizando **Wireshark** 🐟 para mejorar tanto la seguridad como el rendimiento.
 
-## 2. **Motivo del proyecto**
+## 2. **Motivo del proyecto** 🎯
 
 Este proyecto nos supone un desafío personal y una gran oportunidad de aprendizaje. Aunque algunos aspectos nos resulten más interesantes que otros, todos coincidimos en que es una experiencia única, ya que ninguno de los miembros del equipo ha trabajado en algo similar. Con la ayuda de nuestros profesores confiamos en que este será un gran proyecto.
 
