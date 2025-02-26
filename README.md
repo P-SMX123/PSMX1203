@@ -183,7 +183,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
 - **Clave Foránea**: `Usuarios.id_usuario → Sitio_Web.id_usuario`
 
 
-## 11. **DNS y DHCP con Pi-hole**
+## 11. **DNS y DHCP con Pi-hole** 🌍
 
 ### **1. Introducción al servicio (DNS y DHCP)**  
 **DNS** traduce los nombres de dominio a direcciones IP y **DHCP** asigna automáticamente direcciones IP a los dispositivos. Usamos **Pi-hole** para gestionar ambos servicios, mejorando la eficiencia de la red y bloqueando anuncios.
@@ -360,7 +360,7 @@ Acceso denegado a archivos PHP: Ajusta permisos con ```bash sudo chmod -R 755 /v
 
 Con estos pasos, hemos instalado y configurado Apache y PHP en Ubuntu. Ahora el servidor está listo para alojar aplicaciones web dinámicas.
 
-## 13. **Pfsense** 
+## 13. **Pfsense**  🔒
 
 **1.	¿Qué es pfSense y para qué se utiliza?**
 
@@ -393,7 +393,7 @@ La instalación de pfSense se realiza descargando la imagen ISO, creando un medi
 Sí, pfSense es una opción viable tanto para empresas como para redes domésticas debido a su flexibilidad, facilidad de uso y su conjunto de características avanzada. Ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
 
 
-## 13. **SOPHOS** 
+## 13. **SOPHOS**  🔐
 
 **1.	¿Qué es Sophos y para qué se utiliza?**
 
@@ -427,7 +427,7 @@ Sí, Sophos es una opción muy viable tanto para empresas como para redes domés
 
 ## 15. **Port Forward** 
 
-**1.  ¿Qué es port Forward?**
+**1.  ¿Qué es port Forward?** 🔌
 
 Es un proceso mediante el cual se configuran los routers o cortafuegos para permitir que el tráfico de la red externa llegue a un dispositivo específico dentro de una red privada local.
 El port forwarding es necesario en situaciones donde quieres que un dispositivo de tu red local sea accesible desde el exterior.
@@ -449,7 +449,7 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 
 -Servicios de acceso remoto.
 
-## **16. Recursos** 
+## **16. Recursos**  📚
 
 - **Bibliografía:**
 
