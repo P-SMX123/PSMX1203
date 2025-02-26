@@ -48,7 +48,7 @@ Este proyecto nos supone un desafío personal y una gran oportunidad de aprendiz
    - Ajustar configuraciones de **PHP** y **MySQL**.
    - Implementar **caché** en **Nginx**.
 
-## 4. **Asignar roles y responsabilidades del equipo**
+## 4. **Asignar roles y responsabilidades del equipo** 👥
 
 - **Alejandro (Encargado del Firewall y GitHub)** 🔐:
   - **Firewall**: Configuración del **firewall Sophos**.
