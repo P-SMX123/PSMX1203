@@ -417,7 +417,7 @@ Sophos utiliza un sistema propietario y tecnologías avanzadas basadas en la nub
 
 -Protección avanzada contra amenazas: Incluye defensa contra malware, ransomware y otras amenazas cibernéticas.
 
--Firewall de nueva generación (NGFW): Permite un control granular del tráfico y la aplicación de políticas de seguridad.
+-Firewall de nueva generación: Permite un control granular del tráfico y la aplicación de políticas de seguridad.
 
 -Protección contra intrusiones y filtrado web: Detecta y previene intentos de intrusión y controla el acceso a sitios web peligrosos.
 
@@ -425,11 +425,11 @@ Sophos utiliza un sistema propietario y tecnologías avanzadas basadas en la nub
 
 -VPN y acceso remoto seguro: Facilita la conexión remota segura para empleados.
 
--Prevención de pérdida de datos (DLP): Ayuda a proteger información sensible y cumple con normativas de privacidad.
+-Prevención de pérdida de datos: Ayuda a proteger información sensible y cumple con normativas de privacidad.
 
 **4.	¿Cómo se instala y configura Sophos? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual?**
 
-La instalación de Sophos depende del producto específico, pero generalmente incluye la descarga de la solución desde su portal, la instalación en un servidor o dispositivo y la configuración mediante la consola de administración centralizada. En entornos virtuales, es esencial verificar la compatibilidad con la plataforma de virtualización (como VMware o Hyper-V) y asegurar que los recursos del sistema (CPU, memoria y almacenamiento) sean suficientes para no afectar el rendimiento.
+La instalación de Sophos depende del producto específico, pero generalmente incluye la descarga de la solución desde su portal, la instalación en un servidor o dispositivo y la configuración mediante la consola de administración centralizada. En entornos virtuales, es esencial verificar la compatibilidad con la plataforma de virtualización y asegurar que los recursos del sistema sean suficientes para no afectar el rendimiento.
 
 **5.	¿Consideras sophos una opción viable para empresas y redes domésticas?**
 
@@ -451,7 +451,7 @@ Cuando alguien desde fuera de tu red intenta acceder a tu dirección IP pública
 
 Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como:
 
--Servidores web (HTTP).
+-Servidores web.
 
 -Juegos en línea.
 
