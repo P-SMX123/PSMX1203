@@ -402,8 +402,9 @@ La instalación de pfSense se realiza descargando la imagen ISO, creando un medi
 
 Sí, pfSense es una opción viable tanto para empresas como para redes domésticas debido a su flexibilidad, facilidad de uso y su conjunto de características avanzada. Ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
 
+## 14. **INSTALACIÓN Pfsense**  🔒
 
-## 13. **SOPHOS**  🔐
+## 15. **SOPHOS**  🔐
 
 **1.	¿Qué es Sophos y para qué se utiliza?**
 
@@ -435,7 +436,7 @@ La instalación de Sophos depende del producto específico, pero generalmente in
 
 Sí, Sophos es una opción muy viable tanto para empresas como para redes domésticas. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además, su interfaz amigable y su soporte técnico hacen que sea una opción popular.
 
-## 15. **Port Forward** 🔌
+## 16. **Port Forward** 🔌
 
 **1.  ¿Qué es port Forward?** 
 
@@ -462,7 +463,7 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 **4. Conlusión**
 Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
-## **16. Recursos**  📚
+## **17. Recursos**  📚
 
 - **Bibliografía:**
 
