@@ -404,6 +404,13 @@ Sí, pfSense es una opción viable tanto para empresas como para redes doméstic
 
 ## 14. **INSTALACIÓN Pfsense**  🔒
 
+**1.Descargar la ISO**
+
+```bash
+https://www.pfsense.org/download/
+```
+
+
 ## 15. **SOPHOS**  🔐
 
 **1.	¿Qué es Sophos y para qué se utiliza?**
