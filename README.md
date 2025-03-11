@@ -445,7 +445,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
 
 4.Accedemos a la interfaz web de pfSense.
-
+```
 -En la configuración básica del sistema:
 
 -Se configura un dominio (por ejemplo, pfsense.kirby.local).
@@ -455,7 +455,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 -Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
 
 -Se cambia la contraseña del administrador para mayor seguridad.
-
+```
 5.Pasos clave:
 
 -Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
@@ -465,6 +465,9 @@ Los rangos de direcciones RFC 1918 incluyen:
 -Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
 
 -Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
+
+**5.OpenVPN**
+
 
 ## 15. **SOPHOS**  🔐
 
