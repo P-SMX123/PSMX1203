@@ -412,18 +412,18 @@ https://www.pfsense.org/download/
 **2.Adaptadores RED**
 
 ```bash
-Adaptador de red: Adaptador Puente
+-Adaptador de red: Adaptador Puente
 
-Adaptador de red: Solo Anfitrión
+-Adaptador de red: Solo Anfitrión
 ```
 
 3**Configuración**
 ```bash
-RAM:  2048
+-RAM:  2048
 
-HDD:  16 GB
+-HDD:  16 GB
 
-S.O.:  BSD
+-S.O.:  BSD
 ```
 **4.Instalación**
 
@@ -435,36 +435,36 @@ S.O.:  BSD
 2.1
 Los rangos de direcciones RFC 1918 incluyen:
 ```bash
-10.0.0.0/8
+-10.0.0.0/8
 
-172.16.0.0/12
+-172.16.0.0/12
 
-192.168.0.0/16
+-192.168.0.0/16
 ```
 
 3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
 
 4.Accedemos a la interfaz web de pfSense.
 
-En la configuración básica del sistema:
+-En la configuración básica del sistema:
 
-Se configura un dominio (por ejemplo, pfsense.kirby.local).
+-Se configura un dominio (por ejemplo, pfsense.kirby.local).
 
-Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
+-Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
 
-Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
+-Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
 
-Se cambia la contraseña del administrador para mayor seguridad.
+-Se cambia la contraseña del administrador para mayor seguridad.
 
 5.Pasos clave:
 
-Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
+-Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
 
-Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
+-Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
 
-Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
+-Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
 
-Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
+-Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
 
 ## 15. **SOPHOS**  🔐
 
