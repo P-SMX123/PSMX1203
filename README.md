@@ -506,11 +506,17 @@ Para ello, clicamos en **Firewall - Rules - WAN**  y vamos a crear la regla, cli
 
 -Exportar la configuración para los clientes.
 
+Primero tenemos que crear un usuario nuevo, por tanto nos vamos a **System - User Manager**
 
+Creamos un nuevo usuario y clicamos en Click to **create a user certificate** para crear el certificado para ese usuario.
+
+Una vez creado nuestro usuario de prueba ver cómo  exportar los clientes VPN. Para ello seleccionamos en el menú  a **VPN - OpenVPN - Client Export**.
 
 -Verificar el estado del servicio y las conexiones de clientes.
 
+En el caso de utilizar un dispositivo móvil, tendríamos que instalar la **OpenVPN** for Android 
 
+Hay que exportar el certificado del cliente que hemos creado a nuestro dispositivo para comprobar su funcionamiento.
 
 ## 15. **SOPHOS**  🔐
 
