@@ -445,9 +445,10 @@ Los rangos de direcciones RFC 1918 incluyen:
 3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
 
 4.Accedemos a la interfaz web de pfSense.
-```
+
 -En la configuración básica del sistema:
 
+```
 -Se configura un dominio (por ejemplo, pfsense.kirby.local).
 
 -Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
@@ -456,8 +457,10 @@ Los rangos de direcciones RFC 1918 incluyen:
 
 -Se cambia la contraseña del administrador para mayor seguridad.
 ```
+
 5.Pasos clave:
 
+```
 -Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
 
 -Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
@@ -465,8 +468,30 @@ Los rangos de direcciones RFC 1918 incluyen:
 -Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
 
 -Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
+```
 
 **5.OpenVPN**
+
+-Que es?
+Un servidor VPN es una herramienta esencial para garantizar la seguridad y privacidad en línea, proporcionando una conexión cifrada entre un dispositivo cliente y una red privada a través de Internet.
+
+OpenVPN es un protocolo popular y de código abierto que se utiliza para crear estas conexiones seguras. En el caso de pfSense, una plataforma de gestión de redes, se puede integrar OpenVPN para ofrecer una solución completa de VPN.
+
+
+-Instalar el plugin OpenVPN Client.
+
+Lo primero es descargar el paquete *openvpn-client-export* y para ello vamos a *System - Package Manager - Available Packages* y buscamos el paquete *openvpn-client-export* y pulsamos en Install.
+
+-Crear certificados digitales (CA y certificado del servidor).
+
+-Configurar el servidor OpenVPN para permitir conexiones remotas.
+
+-Configurar las reglas de firewall para permitir el acceso.
+
+-Exportar la configuración para los clientes.
+
+-Verificar el estado del servicio y las conexiones de clientes.
+
 
 
 ## 15. **SOPHOS**  🔐
