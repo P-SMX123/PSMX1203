@@ -409,7 +409,45 @@ Sí, pfSense es una opción viable tanto para empresas como para redes doméstic
 ```bash
 https://www.pfsense.org/download/
 ```
+**2.Adaptadores RED**
 
+Adaptador de red: Adaptador Puente
+
+Adaptador de red: Solo Anfitrión
+
+3**Configuración**
+RAM:  2048
+HDD:  16 GB
+S.O.:  BSD
+
+**4.Instalación**
+
+1.Instalamos todo por defecto. Apagamos. Quitamos la ISO y reiniciamos. Una vez que nos sale la pantalla inicial, comenzamos a configurar.
+![image](https://github.com/user-attachments/assets/6798728c-7d7e-45e1-a25d-d8710129915e)
+
+2.Las direcciones IP de la serie RFC 1918 están reservadas para uso privado en redes locales y son comunes en configuraciones de redes con NAT 
+
+2.1
+Los rangos de direcciones RFC 1918 incluyen:
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
+
+4.Accedemos a la interfaz web de pfSense.
+
+En la configuración básica del sistema:
+Se configura un dominio (por ejemplo, pfsense.kirby.local).
+Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
+Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
+Se cambia la contraseña del administrador para mayor seguridad.
+
+5.Pasos clave:
+Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
+Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
+Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
+Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
 
 ## 15. **SOPHOS**  🔐
 
