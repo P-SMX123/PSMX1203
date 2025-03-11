@@ -411,20 +411,20 @@ https://www.pfsense.org/download/
 ```
 **2.Adaptadores RED**
 
-
+```bash
 Adaptador de red: Adaptador Puente
 
 Adaptador de red: Solo Anfitrión
-
+```
 
 3**Configuración**
-
+```bash
 RAM:  2048
 
 HDD:  16 GB
 
 S.O.:  BSD
-
+```
 **4.Instalación**
 
 1.Instalamos todo por defecto. Apagamos. Quitamos la ISO y reiniciamos. Una vez que nos sale la pantalla inicial, comenzamos a configurar.
@@ -434,12 +434,13 @@ S.O.:  BSD
 
 2.1
 Los rangos de direcciones RFC 1918 incluyen:
-
+```bash
 10.0.0.0/8
 
 172.16.0.0/12
 
 192.168.0.0/16
+```
 
 3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
 
