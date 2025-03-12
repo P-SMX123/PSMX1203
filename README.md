@@ -528,6 +528,7 @@ Ahora vamos a configurar el servidor OpenVPN a donde se van a conectar los clien
 Ahora nos toca crear una regla en la WAN que nos permita el acceso a través del puerto de VPN.  
 
 Para ello, clicamos en **Firewall - Rules - WAN**  y vamos a crear la regla, clicando donde dice Add rule to the top of the list.
+
 ![image](https://github.com/user-attachments/assets/69393009-e5bc-4239-8334-613b90c467fe)
 
 -Exportar la configuración para los clientes.
