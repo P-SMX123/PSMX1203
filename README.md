@@ -406,25 +406,28 @@ Sí, pfSense es una opción viable tanto para empresas como para redes doméstic
 
 **1.Descargar la ISO**
 
-```bash
+`bash
 https://www.pfsense.org/download/
-```
+`
+
 **2.Adaptadores RED**
 
-```bash
+`bash
 -Adaptador de red: Adaptador Puente
 
 -Adaptador de red: Solo Anfitrión
-```
+`
 
 3**Configuración**
-```bash
+
+`bash
 -RAM:  2048
 
 -HDD:  16 GB
 
 -S.O.:  BSD
-```
+`
+
 **4.Instalación**
 
 1.Instalamos todo por defecto. Apagamos. Quitamos la ISO y reiniciamos. Una vez que nos sale la pantalla inicial, comenzamos a configurar.
@@ -434,13 +437,13 @@ https://www.pfsense.org/download/
 
 2.1
 Los rangos de direcciones RFC 1918 incluyen:
-```bash
+`bash
 -10.0.0.0/8
 
 -172.16.0.0/12
 
 -192.168.0.0/16
-```
+`
 
 3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
 
@@ -448,7 +451,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 
 -En la configuración básica del sistema:
 
-```
+`
 -Se configura un dominio (por ejemplo, pfsense.kirby.local).
 
 -Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
@@ -456,11 +459,11 @@ Los rangos de direcciones RFC 1918 incluyen:
 -Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
 
 -Se cambia la contraseña del administrador para mayor seguridad.
-```
+`
 
 5.Pasos clave:
 
-```
+`
 -Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
 
 -Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
@@ -468,7 +471,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 -Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
 
 -Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
-```
+`
 
 **5.OpenVPN**
 
