@@ -414,7 +414,9 @@ https://www.pfsense.org/download/
 
 `bash
 -Adaptador de red: Adaptador Puente
+`
 
+`bash
 -Adaptador de red: Solo Anfitrión
 `
 
@@ -422,9 +424,13 @@ https://www.pfsense.org/download/
 
 `bash
 -RAM:  2048
+`
 
+`
 -HDD:  16 GB
+`
 
+`
 -S.O.:  BSD
 `
 
@@ -437,11 +443,16 @@ https://www.pfsense.org/download/
 
 2.1
 Los rangos de direcciones RFC 1918 incluyen:
+
 `bash
 -10.0.0.0/8
+`
 
+`
 -172.16.0.0/12
+`
 
+`
 -192.168.0.0/16
 `
 
@@ -453,11 +464,17 @@ Los rangos de direcciones RFC 1918 incluyen:
 
 `
 -Se configura un dominio (por ejemplo, pfsense.kirby.local).
+`
 
+`
 -Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
+`
 
+`
 -Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
+`
 
+`
 -Se cambia la contraseña del administrador para mayor seguridad.
 `
 
@@ -465,11 +482,17 @@ Los rangos de direcciones RFC 1918 incluyen:
 
 `
 -Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
+`
 
+`
 -Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
+`
 
+`
 -Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
+`
 
+`
 -Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
 `
 
