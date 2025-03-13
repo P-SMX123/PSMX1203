@@ -512,6 +512,7 @@ Lo primero es descargar el paquete **openvpn-client-export** y para ello vamos a
 `
 -Crear certificados digitales (CA y certificado del servidor).
 `
+
 Una CA es, una entidad confiable responsable de emitir y revocar certificados digitales utilizados para transacciones y firmas electrónicas.
 Abrimos la interfaz del pfSense y navegamos hasta **System - Certificate Manager** y hacemos clic en Agregar.
 ![image](https://github.com/user-attachments/assets/dc27824b-4420-44ce-ac4b-d5b593893c97)
@@ -519,28 +520,34 @@ Abrimos la interfaz del pfSense y navegamos hasta **System - Certificate Manager
 `
 -Configurar el servidor OpenVPN para permitir conexiones remotas.
 `
+
 Ahora vamos a configurar el servidor OpenVPN a donde se van a conectar los clientes para lo cual, nos vamos a **VPN - OpenVPN - Servers** y clicamos en Add y rellenamos las opciones:
 ![image](https://github.com/user-attachments/assets/a81b28dc-b88b-43c2-ab55-3e2ee11f2931)
 
 `
 -Configurar las reglas de firewall para permitir el acceso.
 `
+
 Ahora nos toca crear una regla en la WAN que nos permita el acceso a través del puerto de VPN.  
 
 Para ello, clicamos en **Firewall - Rules - WAN**  y vamos a crear la regla, clicando donde dice Add rule to the top of the list.
 
 ![image](https://github.com/user-attachments/assets/69393009-e5bc-4239-8334-613b90c467fe)
+
 `
 -Exportar la configuración para los clientes.
 `
+
 Primero tenemos que crear un usuario nuevo, por tanto nos vamos a **System - User Manager**
 
 Creamos un nuevo usuario y clicamos en Click to **create a user certificate** para crear el certificado para ese usuario.
 
 Una vez creado nuestro usuario de prueba ver cómo  exportar los clientes VPN. Para ello seleccionamos en el menú  a **VPN - OpenVPN - Client Export**.
+
 `
 -Verificar el estado del servicio y las conexiones de clientes.
 `
+
 En el caso de utilizar un dispositivo móvil, tendríamos que instalar la **OpenVPN** for Android 
 
 Hay que exportar el certificado del cliente que hemos creado a nuestro dispositivo para comprobar su funcionamiento.
