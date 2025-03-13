@@ -499,6 +499,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 **5.OpenVPN**
 
 -Que es?
+
 Un servidor VPN es una herramienta esencial para garantizar la seguridad y privacidad en línea, proporcionando una conexión cifrada entre un dispositivo cliente y una red privada a través de Internet.
 
 OpenVPN es un protocolo popular y de código abierto que se utiliza para crear estas conexiones seguras. En el caso de pfSense, una plataforma de gestión de redes, se puede integrar OpenVPN para ofrecer una solución completa de VPN.
