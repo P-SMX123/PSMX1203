@@ -643,19 +643,44 @@ TrueNAS es ideal para nuestro **servicio de hosting**, ya que ofrece una **soluc
 ## **17. Recursos**  📚
 
 - **Bibliografía:**
+  
+📌 [Guía oficial de administración de TrueNAS CORE](https://www.truenas.com/docs/core/gettingstarted/?lang=es)  
 
+📌 [Documentación oficial de TrueNAS SCALE](https://www.truenas.com/docs/scale/gettingstarted/?lang=es)  
+
+📌 [Cómo crear y gestionar pools en TrueNAS](https://www.truenas.com/docs/core/storage/pools/?lang=es)  
+
+📌 [Guía sobre datasets y configuraciones en TrueNAS](https://www.truenas.com/docs/core/storage/datasets/?lang=es)  
+
+📌 [Cómo crear snapshots en TrueNAS](https://www.truenas.com/docs/core/tasks/snapshots/?lang=es)  
+
+📌 [Replicación de datos en TrueNAS](https://www.truenas.com/docs/core/tasks/replication/?lang=es)  
+
+📌 [Cómo usar Rsync en TrueNAS para copias de seguridad](https://www.truenas.com/docs/core/tasks/rsync/?lang=es)  
+
+📌 [Cómo compartir archivos con SMB en TrueNAS](https://www.truenas.com/docs/core/sharing/smb/?lang=es)  
+
+📌 [Configuración de NFS en TrueNAS](https://www.truenas.com/docs/core/sharing/nfs/?lang=es)  
+
+📌 [Configuración de iSCSI en TrueNAS](https://www.truenas.com/docs/core/sharing/iscsi/?lang=es)  
 
 
 - **Webgrafía:**
 
-
-
+📌 [Backups Reddit](https://www.reddit.com/r/truenas/comments/15yfbos/backup_options_in_truenas_scale/?tl=es-es&utm_source=chatgpt.com&rdt=61137)
 
 - **Vídeos:**
 
+📌 [Cómo hacer una copia de seguridad de Su TrueNAS usando ZFS Replication](https://www.youtube.com/watch?v=OzqjnzAALTM)
+
+📌 [👓 Como Instalar TrueNas Core y configurar un respaldo💻 (/var/spool/asterisk/monitor) 😎🏆](https://www.youtube.com/watch?v=dNXQ1jclLGE)
+
+📌 [Copias De Seguridad de Windows 10 En TrueNas](https://www.youtube.com/watch?v=pAkYcYnWLbs)
+
+📌 [Backup de Datos con Rsync: Copiando Archivos de una NAS a TrueNAS](https://www.youtube.com/watch?v=bKfGB3xKk0E)
+
+📌 [Truenas 13 Instalacion y Configuracion SMB - TuPropio NAS](https://www.youtube.com/watch?v=BxLgjjjFt28)
 
 
 - **Cursos:**
-
-
 
