@@ -612,7 +612,33 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 **4. Conlusión**
 Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
-## **18. TrueNAS**
+## **18. TrueNAS**  🖥️  
+
+### **1. ¿Qué es TrueNAS y para qué se utiliza?**  
+TrueNAS es un sistema operativo basado en **FreeBSD y OpenZFS**, diseñado para la gestión y almacenamiento de datos en red (**NAS - Network Attached Storage**). Se usa para almacenar, proteger y gestionar datos de manera eficiente en entornos personales y empresariales.  
+
+### **2. ¿En qué sistema se basa?**  
+TrueNAS se basa en **FreeBSD** y utiliza el sistema de archivos **ZFS**, que proporciona **alta tolerancia a fallos, verificación de integridad y snapshots** para la protección de datos.  
+
+### **3. ¿Cuáles son las principales características de TrueNAS?**  
+
+- **Almacenamiento en red (NAS/SAN):** Compatible con **SMB, NFS e iSCSI** para compartir archivos de manera eficiente.  
+- **Gestión de copias de seguridad:** Permite realizar backups automáticos para proteger datos críticos.  
+- **RAID y redundancia:** Usa **ZFS** para evitar pérdida de información y mejorar la estabilidad del almacenamiento.  
+- **Interfaz web intuitiva:** Facilita la administración sin necesidad de comandos complejos.  
+- **Compatibilidad con virtualización:** Se integra con **Docker, Kubernetes y máquinas virtuales**.  
+- **Replicación y sincronización:** Permite **clonar y sincronizar datos** en servidores remotos para mayor seguridad.  
+
+### **4. ¿Cómo se instalará y configurará TrueNAS en nuestro proyecto?**  
+En **JAF Technology**, TrueNAS se usará para gestionar las **copias de seguridad del servidor**, asegurando que los archivos del sitio web, bases de datos y configuraciones estén protegidos. La instalación incluirá:  
+
+1. **Descarga e instalación** en un servidor dedicado o máquina virtual.  
+2. **Configuración del almacenamiento y creación de pools ZFS**.  
+3. **Habilitación de servicios SMB/NFS para compartir archivos en la red**.  
+4. **Automatización de copias de seguridad y replicación remota**.  
+
+### **5. ¿Por qué es una opción viable para nuestro proyecto?**  
+TrueNAS es ideal para nuestro **servicio de hosting**, ya que ofrece una **solución segura, escalable y confiable** para la gestión de datos. Su **capacidad de recuperación ante fallos y facilidad de administración** garantizan la estabilidad del proyecto sin costos adicionales de licencias.
 
 ## **17. Recursos**  📚
 
