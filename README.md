@@ -701,7 +701,7 @@ Las bases de datos almacenan información dinámica y crítica como usuarios, re
 
 ## 2. Archivos del Servidor Web (Apache/Nginx)
 **¿Por qué hacemos copias de seguridad de los archivos web?**
-Estos archivos contienen el código fuente del sitio web, como las páginas HTML, scripts PHP, configuraciones específicas (por ejemplo, `apache2.conf` o `nginx.conf`), etc. Sin ellos, el sitio no funcionará.
+Estos archivos contienen el código fuente del sitio web, como las páginas HTML, scripts PHP, configuraciones específicas por ejemplo, `apache2.conf`. Sin ellos, el sitio no funcionará.
 
 **¿Por qué semanalmente?**
 - Los cambios en el código no suelen ocurrir a diario.
