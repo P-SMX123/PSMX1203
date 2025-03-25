@@ -661,6 +661,16 @@ Seguridad de los datos: SQL incluye funcionalidades para definir roles y permiso
 
 Integridad referencial: SQL puede garantizar que los datos en diferentes tablas se mantengan consistentes mediante claves primarias y foráneas.
 
+4. ¿Cómo se utilizará SQL en nuestro proyecto?
+
+En el proyecto de gestión de datos de clientes de la empresa, SQL será esencial para:
+
+Creación y mantenimiento de la base de datos: Se diseñarán y creará las tablas necesarias para almacenar los datos de clientes, pedidos y productos.
+
+Consultas y reportes: Utilizaremos SQL para generar reportes de ventas, consultas de inventarios y otros análisis de datos.
+
+Manejo de transacciones: SQL garantizará que las transacciones de compra y venta sean seguras, asegurando que la base de datos se mantenga coherente y libre de errores.
+
 
 ## **20. Instalación SQL**  🖥️ 
 
