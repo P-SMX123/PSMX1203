@@ -645,8 +645,31 @@ TrueNAS es ideal para nuestro **servicio de hosting**, ya que ofrece una **soluc
 
 ## **19. SQL**  🖥️ 
 
+**¿Qué es SQL y para qué se utiliza?**
+
+SQL es un lenguaje estándar utilizado para gestionar bases de datos relacionales. Permite realizar operaciones como consultas, actualizaciones, inserciones y eliminaciones de datos en bases de datos. SQL es fundamental para interactuar con sistemas de gestión de bases de datos.
+
+**¿Cuáles son las principales características de SQL?**
+
+Consultas complejas: Permite realizar consultas con operaciones avanzadas como joins, subconsultas y agrupaciones.
+
+Manejo de transacciones: Permite controlar transacciones para asegurar la integridad de los datos.
+
+Lenguaje declarativo: En lugar de indicar cómo se deben realizar las tareas, se describe qué se debe hacer (por ejemplo, obtener ciertos datos).
+
+Seguridad de los datos: SQL incluye funcionalidades para definir roles y permisos, protegiendo los datos de accesos no autorizados.
+
+Integridad referencial: SQL puede garantizar que los datos en diferentes tablas se mantengan consistentes mediante claves primarias y foráneas.
+
 
 ## **20. Instalación SQL**  🖥️ 
+
+Abre una terminal y ejecuta el siguiente comando:
+
+`bash
+sudo apt update
+sudo apt upgrade
+`
 
 ## **21. MockUp WEB**  🖥️ 
 ![image](https://github.com/user-attachments/assets/678481fa-5d31-4607-898a-60e682d69c9f)
