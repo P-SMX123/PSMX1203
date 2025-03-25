@@ -668,6 +668,8 @@ Abre una terminal y ejecuta el siguiente comando:
 
 `bash
 sudo apt update
+`
+`bash
 sudo apt upgrade
 `
 
