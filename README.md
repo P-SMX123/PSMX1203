@@ -669,8 +669,35 @@ Abre una terminal y ejecuta el siguiente comando:
 `bash
 sudo apt update
 `
+
 `bash
 sudo apt upgrade
+`
+
+Para instalar MySQL, ejecuta el siguiente comando:
+
+`bash
+sudo apt install mysql-server
+`
+
+Una vez que MySQL esté instalado, el servicio debería iniciarse automáticamente. Puedes verificar si está corriendo con el siguiente comando:
+
+`bash
+sudo systemctl status mysql
+`
+
+Ahora puedes ingresar a la consola de MySQL para gestionar tus bases de datos. Usa el siguiente comando para iniciar sesión como el usuario root:
+
+`bash
+sudo mysql -u root -p
+`
+
+Los pasos para crear un usuario:
+
+`bash
+CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'contraseña';
+GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
 `
 
 ## **21. MockUp WEB**  🖥️ 
