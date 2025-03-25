@@ -648,7 +648,9 @@ TrueNAS es ideal para nuestro **servicio de hosting**, ya que ofrece una **soluc
 
 ## **20. Instalación SQL**  🖥️ 
 
-## **21. Recursos**  📚
+## **21. MockUp WEB**  🖥️ 
+
+## **22. Recursos**  📚
 
 - **Bibliografía:**
  
