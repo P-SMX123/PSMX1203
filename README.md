@@ -612,7 +612,7 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 **4. Conlusión**
 Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
-## **18. TrueNAS**  🖥️  
+## **17. TrueNAS**  🖥️  
 
 ### **1. ¿Qué es TrueNAS y para qué se utiliza?**  
 TrueNAS es un sistema operativo basado en **FreeBSD y OpenZFS**, diseñado para la gestión y almacenamiento de datos en red (**NAS - Network Attached Storage**). Se usa para almacenar, proteger y gestionar datos de manera eficiente en entornos personales y empresariales.  
@@ -640,138 +640,23 @@ En **JAF Technology**, TrueNAS se usará para gestionar las **copias de segurida
 ### **5. ¿Por qué es una opción viable para nuestro proyecto?**  
 TrueNAS es ideal para nuestro **servicio de hosting**, ya que ofrece una **solución segura, escalable y confiable** para la gestión de datos. Su **capacidad de recuperación ante fallos y facilidad de administración** garantizan la estabilidad del proyecto sin costos adicionales de licencias.
 
-## **17. Recursos**  📚
+
+## **18. Instalación TrueNAS**  🖥️ 
+
+
+## **19. Recursos**  📚
 
 - **Bibliografía:**
-  
-📌 [Guía oficial de administración de TrueNAS CORE](https://www.truenas.com/docs/core/gettingstarted/?lang=es)  
-
-📌 [Documentación oficial de TrueNAS SCALE](https://www.truenas.com/docs/scale/gettingstarted/?lang=es)  
-
-📌 [Cómo crear y gestionar pools en TrueNAS](https://www.truenas.com/docs/core/storage/pools/?lang=es)  
-
-📌 [Guía sobre datasets y configuraciones en TrueNAS](https://www.truenas.com/docs/core/storage/datasets/?lang=es)  
-
-📌 [Cómo crear snapshots en TrueNAS](https://www.truenas.com/docs/core/tasks/snapshots/?lang=es)  
-
-📌 [Replicación de datos en TrueNAS](https://www.truenas.com/docs/core/tasks/replication/?lang=es)  
-
-📌 [Cómo usar Rsync en TrueNAS para copias de seguridad](https://www.truenas.com/docs/core/tasks/rsync/?lang=es)  
-
-📌 [Cómo compartir archivos con SMB en TrueNAS](https://www.truenas.com/docs/core/sharing/smb/?lang=es)  
-
-📌 [Configuración de NFS en TrueNAS](https://www.truenas.com/docs/core/sharing/nfs/?lang=es)  
-
-📌 [Configuración de iSCSI en TrueNAS](https://www.truenas.com/docs/core/sharing/iscsi/?lang=es)  
+ 
 
 
 - **Webgrafía:**
 
-📌 [Backups Reddit](https://www.reddit.com/r/truenas/comments/15yfbos/backup_options_in_truenas_scale/?tl=es-es&utm_source=chatgpt.com&rdt=61137)
+
 
 - **Vídeos:**
 
-📌 [Cómo hacer una copia de seguridad de Su TrueNAS usando ZFS Replication](https://www.youtube.com/watch?v=OzqjnzAALTM)
-
-📌 [👓 Como Instalar TrueNas Core y configurar un respaldo💻 (/var/spool/asterisk/monitor) 😎🏆](https://www.youtube.com/watch?v=dNXQ1jclLGE)
-
-📌 [Copias De Seguridad de Windows 10 En TrueNas](https://www.youtube.com/watch?v=pAkYcYnWLbs)
-
-📌 [Backup de Datos con Rsync: Copiando Archivos de una NAS a TrueNAS](https://www.youtube.com/watch?v=bKfGB3xKk0E)
-
-📌 [Truenas 13 Instalacion y Configuracion SMB - TuPropio NAS](https://www.youtube.com/watch?v=BxLgjjjFt28)
 
 
 - **Cursos:**
 
-# Copias de Seguridad
-
-## 1. Bases de Datos (MySQL)
-**¿Por qué hacemos copias de seguridad de MySQL?**
-Las bases de datos almacenan información dinámica y crítica como usuarios, registros, configuraciones, transacciones y más. Una pérdida de la base de datos puede significar la pérdida total del proyecto o de datos sensibles.
-
-**¿Por qué diariamente?**
-- Los datos cambian constantemente (nuevos usuarios, actualizaciones de contenido).
-- Un fallo podría implicar perder la información más reciente.
-- Los ataques como ransomware o fallos de hardware pueden inutilizar la base de datos.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- Pérdida irreversible de información crítica.
-- No poder recuperar datos actualizados si hay un fallo.
-
-## 2. Archivos del Servidor Web (Apache/Nginx)
-**¿Por qué hacemos copias de seguridad de los archivos web?**
-Estos archivos contienen el código fuente del sitio web, como las páginas HTML, scripts PHP, configuraciones específicas por ejemplo, `apache2.conf`. Sin ellos, el sitio no funcionará.
-
-**¿Por qué semanalmente?**
-- Los cambios en el código no suelen ocurrir a diario.
-- Hacerlo diariamente sería redundante si no hay actualizaciones constantes.
-- Es suficiente para recuperar el sitio si se daña o se pierde.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- Si el servidor falla, se perderá todo el contenido del sitio web.
-- Los ataques o errores de configuración pueden dejar el sitio inoperativo.
-
-## 3. Configuración de Pi-hole (DNS/DHCP)
-**¿Por qué hacemos copias de seguridad de Pi-hole?**
-Pi-hole gestiona los servicios de DNS y DHCP, que permiten traducir nombres de dominio (como "google.com") a direcciones IP y asignar direcciones IP dentro de tu red.
-
-**¿Por qué semanalmente?**
-- Cambios en las reglas (listas de bloqueo de anuncios o asignación de IPs) no son frecuentes.
-- Si hay un fallo, queremos recuperar las configuraciones sin tener que reconfigurarlo todo manualmente.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- Pérdida de configuraciones personalizadas (listas negras/blancas).
-- Falta de acceso a servicios web si el DNS deja de funcionar.
-
-## 4. Firewall y Seguridad (Sophos/PfSense)
-**¿Por qué hacemos copias de seguridad del firewall?**
-El firewall controla el acceso a la red, protege de ataques externos y regula el tráfico interno. Un mal funcionamiento o pérdida de las reglas puede dejar el sistema vulnerable a intrusiones o inaccesible.
-
-**¿Por qué mensualmente o después de cada cambio?**
-- Las políticas del firewall no cambian con regularidad.
-- Cada vez que se añade una nueva regla o configuración crítica, es importante crear un punto de restauración.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- Pérdida de reglas de acceso que permiten el funcionamiento del servidor.
-- Brechas de seguridad que dejan el sistema vulnerable.
-
-## 5. TrueNAS (Copias locales y remotas)
-**¿Por qué hacemos copias de seguridad en TrueNAS?**
-TrueNAS es el almacenamiento central de tus backups. Usamos este sistema porque es seguro, fiable y tiene soporte de snapshots para restaurar el sistema a un punto anterior si algo sale mal.
-
-**¿Por qué diariamente (snapshots) y semanalmente (rsync)?**
-- **Snapshots diarios** permiten retroceder en el tiempo si algo falla.
-- **Rsync semanal** asegura una copia completa y externa de todo el sistema.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- Pérdida de todos los backups si hay una falla en el almacenamiento principal.
-- Sin copias remotas, no podrás recuperar datos si hay un desastre físico (incendio, fallos de hardware).
-
-## 6. Registros y Logs del Sistema
-**¿Por qué hacemos copias de seguridad de los logs?**
-Los logs guardan información detallada del comportamiento del sistema: accesos, errores, fallos de seguridad, etc. Son cruciales para diagnosticar problemas y revisar actividades sospechosas.
-
-**¿Por qué diariamente?**
-- Los logs cambian constantemente con cada interacción.
-- Sirven para detectar errores recientes y realizar auditorías de seguridad.
-
-**Riesgos si no lo hacemos con frecuencia:**
-- No tener registros en caso de una investigación de fallos o ciberataque.
-- Pérdida de evidencia en caso de un acceso no autorizado.
-
-## 7. Resumen general
-
-| Área                  | Frecuencia                    | Por qué                                                                 |
-|-----------------------|-------------------------------|-------------------------------------------------------------------------|
-| **Bases de Datos**     | Diario                        | Datos cambian constantemente, críticos para el sistema.                |
-| **Servidor Web**       | Semanal                       | Los cambios no son frecuentes, pero son esenciales.                     |
-| **Pi-hole (DNS/DHCP)** | Semanal                       | Cambios de configuración poco frecuentes.                              |
-| **Firewall (Sophos)**  | Mensual o tras cambios        | Políticas estables, pero vitales para la seguridad.                    |
-| **TrueNAS (Rsync)**    | Diario/Semanal                | Snapshots diarios para cambios rápidos, rsync semanal para desastres.  |
-| **Logs del Sistema**   | Diario                        | Seguimiento de errores y auditorías de seguridad.                      |
-
-**Resumen general:**
-- **Datos dinámicos** (MySQL, logs) → Copias diarias.
-- **Configuraciones importantes** (Apache, Pi-hole) → Copias semanales.
-- **Infraestructura crítica** (firewall) → Copias mensuales o tras cambios.
