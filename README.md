@@ -722,8 +722,10 @@ FLUSH PRIVILEGES;
 `
 
 ## **21. MockUp WEB**  🖥️ 
-![image](https://github.com/user-attachments/assets/678481fa-5d31-4607-898a-60e682d69c9f)
+![image](https://github.com/user-attachments/assets/f90f49bd-8cf2-49de-80fb-da2f02408daa)
+
 ![image](https://github.com/user-attachments/assets/0183ae86-419a-4bc4-8a5c-27234d85ca1b)
+![Uploading image.png…]()
 
 
 
