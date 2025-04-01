@@ -620,11 +620,7 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 **4. Conlusión**
 Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
-## 17. RSYNC**  
-
-
-
-## **18. TrueNAS**  🖥️  
+## **17. TrueNAS**  🖥️  
 
 **1. ¿Qué es TrueNAS y para qué se utiliza?**
 
@@ -654,13 +650,13 @@ En JAF Technology, TrueNAS se usará para gestionar las copias de seguridad del 
 TrueNAS es ideal para nuestro servicio de hosting, ya que ofrece una solución segura, escalable y confiable para la gestión de datos. Su capacidad de recuperación ante fallos y facilidad de administración garantizan la estabilidad del proyecto sin costos adicionales de licencias.
 
 
-## **19. Instalación TrueNAS**  🖥️ 
+## **18. Instalación TrueNAS**  🖥️ 
 
 **Creamos la maquina virtual**
 
 Descargamos la ISO de truenas para la instalación, con tipo BSD y version FreeBSD(64-bit).
 
-Configuración del adaptador de red
+**Configuración del adaptador de red**
    
 En la máquina virtual o servidor donde deseas instalar TrueNAS, configura los adaptadores de red.
 
@@ -704,7 +700,7 @@ Cambia la contraseña de administrador para mayor seguridad.
 
 **Configuración de almacenamiento**
    
-7.1. Ahora, configura los discos duros disponibles para ser usados en TrueNAS. Si estás utilizando discos virtuales, asegúrate de que estén correctamente detectados.
+Ahora, configura los discos duros disponibles para ser usados en TrueNAS. Si estás utilizando discos virtuales, asegúrate de que estén correctamente detectados.
 
 Crea un pool de almacenamiento seleccionando los discos disponibles.
 
@@ -714,13 +710,60 @@ Configura la estructura RAID si es necesario para redundancia y mayor seguridad 
 
 TrueNAS ofrece varios servicios útiles como SMB, NFS, y FTP. Para configurarlos, sigue estos pasos:
 
-8.1. Para habilitar el servicio SMB (para compartir archivos con Windows):
+Para habilitar el servicio SMB (para compartir archivos con Windows):
 
 Ve a la sección Sharing.
 
 Selecciona Windows (SMB) Shares.
 
-## **20. SQL**  🖥️ 
+## **19. RSYNC**
+
+**1. ¿Qué es rsync y para qué se utiliza?**
+
+rsync es una herramienta de sincronización de archivos y directorios
+Se utiliza para copiar y sincronizar archivos de manera eficiente entre dos ubicaciones, ya sea en el mismo sistema o entre sistemas remotos a través de una red. 
+
+**2. ¿En qué sistema se basa?**
+
+rsync está diseñado para funcionar en sistemas Unix, Linux, macOS y otros sistemas operativos basados en Unix.
+
+**3. ¿Cuáles son las principales características de rsync?**
+
+Sincronización eficiente: rsync solo copia los cambios realizados en los archivos, lo que lo hace mucho más rápido que las transferencias de archivos tradicionales.
+
+Transferencia remota: Permite la transferencia de archivos entre sistemas locales y remotos mediante SSH o RSync Daemon.
+
+Compresión de datos: Ofrece la opción de comprimir los datos durante la transferencia para ahorrar ancho de banda.
+
+Verificación de integridad: Usa sumas de verificación para garantizar que los archivos se copien de manera correcta y completa.
+
+Preservación de atributos: Mantiene los atributos de los archivos durante la transferencia.
+
+Automatización de copias de seguridad: Permite la creación de copias de seguridad programadas y sincronización automática de archivos entre servidores.
+
+## **20. Instalación RSYNC**
+
+Actualizar el sistema: Antes de instalar cualquier software, es recomendable actualizar el sistema.
+
+`
+sudo apt-get update
+sudo apt-get upgrade
+`
+
+Instalar rsync: Para instalar rsync en sistemas basados en Debian, usa el siguiente comando:
+
+`
+sudo apt-get install rsync
+
+`
+Verificar la instalación: Después de instalar, puedes verificar que rsync se haya instalado correctamente ejecutando:
+
+`
+rsync --version
+
+`
+
+## **21. SQL**  🖥️ 
 
 **¿Qué es SQL y para qué se utiliza?**
 
@@ -748,12 +791,12 @@ Consultas y reportes: Utilizaremos MySQL para generar reportes de ventas, consul
 
 Manejo de transacciones: SQL garantizará que las transacciones de compra y venta sean seguras, asegurando que la base de datos se mantenga coherente y libre de errores.
 
-##**21.¿MySQL?**
+##**22.¿MySQL?**
 
 **¿Qué es MySQL y para qué se utiliza?**
 
 
-## **20. Instalación MySQL**  🖥️ 
+## **23. Instalación MySQL**  🖥️ 
 
 Abre una terminal y ejecuta el siguiente comando:
 
@@ -791,7 +834,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 `
 
-## **22. MockUp WEB**  🖥️ 
+## **24. MockUp WEB**  🖥️ 
 ![image](https://github.com/user-attachments/assets/f90f49bd-8cf2-49de-80fb-da2f02408daa)
 ![image](https://github.com/user-attachments/assets/16232e48-5520-4565-9063-dfb5a9cc37c4)
 ![image](https://github.com/user-attachments/assets/0ab5e4ac-c15a-463b-b71e-40f1c3a9c951)
@@ -806,7 +849,7 @@ FLUSH PRIVILEGES;
 
 
 
-## **23. Recursos**  📚
+## **25. Recursos**  📚
 
 - **Bibliografía:**
  
