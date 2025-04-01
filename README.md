@@ -754,13 +754,11 @@ Instalar rsync: Para instalar rsync en sistemas basados en Debian, usa el siguie
 
 `
 sudo apt-get install rsync
-
 `
 Verificar la instalación: Después de instalar, puedes verificar que rsync se haya instalado correctamente ejecutando:
 
 `
 rsync --version
-
 `
 
 ## **21. SQL**  🖥️ 
