@@ -750,7 +750,7 @@ sudo apt-get update
 sudo apt-get upgrade
 `
 
-Instalar rsync: Para instalar rsync en sistemas basados en Debian, usa el siguiente comando:
+Instalar rsync: Para instalar rsync en sistemas basados en Debian
 
 `
 sudo apt-get install rsync
