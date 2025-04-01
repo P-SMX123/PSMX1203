@@ -652,8 +652,73 @@ TrueNAS es ideal para nuestro servicio de hosting, ya que ofrece una solución s
 
 ## **18. Instalación TrueNAS**  🖥️ 
 
+**Creamos la maquina virtual**
 
+Descargamos la ISO de truenas para la instalación, con tipo BSD y version FreeBSD(64-bit).
 
+Configuración del adaptador de red
+   
+En la máquina virtual o servidor donde deseas instalar TrueNAS, configura los adaptadores de red.
+
+Adaptador de red: Adaptador Puente
+Esto permitirá que la máquina virtual esté en la misma red local que el host físico.
+
+Adaptador de red: Solo Anfitrión
+Configura un adaptador adicional para comunicación privada entre el anfitrión y la máquina virtual si es necesario.
+
+**Configuración la maquina virtual**
+
+Una vez que hayas configurado la máquina virtual, instala TrueNAS utilizando la ISO descargada. La instalación de TrueNAS es sencilla, sigue los pasos predeterminados:
+
+Elige la opción de instalación por defecto.
+
+Durante la instalación, se configurarán automáticamente los discos y las particiones.
+
+Cuando la instalación haya terminado, apaga la máquina virtual, elimina la ISO del sistema y reinicia.
+
+Configuración de la red y acceso web
+
+TrueNAS asignará una dirección IP automáticamente. Asegúrate de que esta IP esté en el mismo rango de red que tu red local, para poder acceder a la interfaz web desde cualquier navegador en la red local.
+
+Dirección IP (Ejemplo): 192.168.1.100 o similar, dependiendo de tu configuración de red.
+
+Accede a la interfaz web de TrueNAS desde un navegador usando la IP asignada:
+
+`
+Ejemplo: http://192.168.1.100
+`
+
+6. Configuración básica del sistema
+6.1. En la interfaz web de TrueNAS, realiza la configuración básica del sistema:
+
+Configura un nombre de dominio (por ejemplo, truenas.local).
+
+Configura los servidores DNS (por ejemplo, 1.1.1.1 y 8.8.8.8).
+
+Establece el timezone adecuado (por ejemplo, Europe/Madrid).
+
+Cambia la contraseña de administrador para mayor seguridad.
+
+7. Configuración de almacenamiento
+   
+7.1. Ahora, configura los discos duros disponibles para ser usados en TrueNAS. Si estás utilizando discos virtuales, asegúrate de que estén correctamente detectados.
+
+Crea un pool de almacenamiento seleccionando los discos disponibles.
+
+Configura la estructura RAID si es necesario para redundancia y mayor seguridad de los datos.
+
+8. Configuración de servicios
+TrueNAS ofrece varios servicios útiles como SMB, NFS, y FTP. Para configurarlos, sigue estos pasos:
+
+8.1. Para habilitar el servicio SMB (para compartir archivos con Windows):
+
+Ve a la sección Sharing.
+
+Selecciona Windows (SMB) Shares.
+
+Configura los directorios compartidos y los permisos adecuados.
+
+8.2. Si necesitas acceso remoto, puedes habilitar SSH para administrar TrueNAS de forma remota desde una terminal.
 
 
 
