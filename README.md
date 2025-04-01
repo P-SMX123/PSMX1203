@@ -620,7 +620,11 @@ Es útil cuando se desea hacer accesibles ciertos servicios o aplicaciones, como
 **4. Conlusión**
 Hemos optado por pfSense debido a que lo estamos viendo en clase y consideramos que será más fácil de configurarlo con el apoyo y soporte de nuestros profesores. Además, al ser una herramienta de código abierto, ofrece flexibilidad y una amplia gama de características avanzadas que se ajustan perfectamente a nuestras necesidades.
 
-## **17. TrueNAS**  🖥️  
+## 17. RSYNC**  
+
+
+
+## **18. TrueNAS**  🖥️  
 
 **1. ¿Qué es TrueNAS y para qué se utiliza?**
 
@@ -650,7 +654,7 @@ En JAF Technology, TrueNAS se usará para gestionar las copias de seguridad del 
 TrueNAS es ideal para nuestro servicio de hosting, ya que ofrece una solución segura, escalable y confiable para la gestión de datos. Su capacidad de recuperación ante fallos y facilidad de administración garantizan la estabilidad del proyecto sin costos adicionales de licencias.
 
 
-## **18. Instalación TrueNAS**  🖥️ 
+## **19. Instalación TrueNAS**  🖥️ 
 
 **Creamos la maquina virtual**
 
@@ -676,7 +680,7 @@ Durante la instalación, se configurarán automáticamente los discos y las part
 
 Cuando la instalación haya terminado, apaga la máquina virtual, elimina la ISO del sistema y reinicia.
 
-Configuración de la red y acceso web
+**Configuración de la red y acceso web**
 
 TrueNAS asignará una dirección IP automáticamente. Asegúrate de que esta IP esté en el mismo rango de red que tu red local, para poder acceder a la interfaz web desde cualquier navegador en la red local.
 
@@ -688,18 +692,17 @@ Accede a la interfaz web de TrueNAS desde un navegador usando la IP asignada:
 Ejemplo: http://192.168.1.100
 `
 
-6. Configuración básica del sistema
-6.1. En la interfaz web de TrueNAS, realiza la configuración básica del sistema:
+**Configuración básica del sistema**
 
-Configura un nombre de dominio (por ejemplo, truenas.local).
+Configura un nombre de dominio.
 
-Configura los servidores DNS (por ejemplo, 1.1.1.1 y 8.8.8.8).
+Configura los servidores DNS.
 
-Establece el timezone adecuado (por ejemplo, Europe/Madrid).
+Establece el timezone adecuado.
 
 Cambia la contraseña de administrador para mayor seguridad.
 
-7. Configuración de almacenamiento
+**Configuración de almacenamiento**
    
 7.1. Ahora, configura los discos duros disponibles para ser usados en TrueNAS. Si estás utilizando discos virtuales, asegúrate de que estén correctamente detectados.
 
@@ -707,7 +710,8 @@ Crea un pool de almacenamiento seleccionando los discos disponibles.
 
 Configura la estructura RAID si es necesario para redundancia y mayor seguridad de los datos.
 
-8. Configuración de servicios
+**Configuración de servicios**
+
 TrueNAS ofrece varios servicios útiles como SMB, NFS, y FTP. Para configurarlos, sigue estos pasos:
 
 8.1. Para habilitar el servicio SMB (para compartir archivos con Windows):
@@ -716,14 +720,7 @@ Ve a la sección Sharing.
 
 Selecciona Windows (SMB) Shares.
 
-Configura los directorios compartidos y los permisos adecuados.
-
-8.2. Si necesitas acceso remoto, puedes habilitar SSH para administrar TrueNAS de forma remota desde una terminal.
-
-
-
-
-## **19. SQL**  🖥️ 
+## **20. SQL**  🖥️ 
 
 **¿Qué es SQL y para qué se utiliza?**
 
@@ -751,7 +748,7 @@ Consultas y reportes: Utilizaremos MySQL para generar reportes de ventas, consul
 
 Manejo de transacciones: SQL garantizará que las transacciones de compra y venta sean seguras, asegurando que la base de datos se mantenga coherente y libre de errores.
 
-##**20.¿MySQL?**
+##**21.¿MySQL?**
 
 **¿Qué es MySQL y para qué se utiliza?**
 
@@ -794,7 +791,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 `
 
-## **21. MockUp WEB**  🖥️ 
+## **22. MockUp WEB**  🖥️ 
 ![image](https://github.com/user-attachments/assets/f90f49bd-8cf2-49de-80fb-da2f02408daa)
 ![image](https://github.com/user-attachments/assets/16232e48-5520-4565-9063-dfb5a9cc37c4)
 ![image](https://github.com/user-attachments/assets/0ab5e4ac-c15a-463b-b71e-40f1c3a9c951)
@@ -809,7 +806,7 @@ FLUSH PRIVILEGES;
 
 
 
-## **22. Recursos**  📚
+## **23. Recursos**  📚
 
 - **Bibliografía:**
  
