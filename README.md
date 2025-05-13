@@ -297,7 +297,7 @@ sudo apt install apache2 -y
 ```
 
 Para verificar que Apache está en ejecución:
-```bash
+```
 sudo systemctl status apache2
 ```
 
