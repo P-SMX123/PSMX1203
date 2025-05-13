@@ -414,23 +414,23 @@ Sí, pfSense es una opción viable tanto para empresas como para redes doméstic
 
 **1.Descargar la ISO**
 
-`bash
+`
 https://www.pfsense.org/download/
 `
 
 **2.Adaptadores RED**
 
-`bash
+`
 -Adaptador de red: Adaptador Puente
 `
 
-`bash
+`
 -Adaptador de red: Solo Anfitrión
 `
 
 3**Configuración**
 
-`bash
+`
 -RAM:  2048
 `
 
@@ -464,7 +464,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 -192.168.0.0/16
 `
 
-3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en el mismo segmento de red. 
+3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en la misma red. 
 
 4.Accedemos a la interfaz web de pfSense.
 
@@ -479,7 +479,7 @@ Los rangos de direcciones RFC 1918 incluyen:
 `
 
 `
--Se selecciona el timezone adecuado (por ejemplo, Europe/Madrid).
+-Se selecciona el timezone adecuado.
 `
 
 `
@@ -802,31 +802,31 @@ Abre una terminal y ejecuta el siguiente comando:
 sudo apt update
 `
 
-`bash
+`
 sudo apt upgrade
 `
 
 Para instalar MySQL, ejecuta el siguiente comando:
 
-`bash
+`
 sudo apt install mysql-server
 `
 
 Una vez que MySQL esté instalado, el servicio debería iniciarse automáticamente. Puedes verificar si está corriendo con el siguiente comando:
 
-`bash
+`
 sudo systemctl status mysql
 `
 
 Ahora puedes ingresar a la consola de MySQL para gestionar tus bases de datos. Usa el siguiente comando para iniciar sesión como el usuario root:
 
-`bash
+`
 sudo mysql -u root -p
 `
 
 Los pasos para crear un usuario:
 
-`bash
+`
 CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'contraseña';
 GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
