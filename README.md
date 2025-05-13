@@ -452,7 +452,7 @@ https://www.pfsense.org/download/
 2.1
 Los rangos de direcciones RFC 1918 incluyen:
 
-`bash
+`
 -10.0.0.0/8
 `
 
