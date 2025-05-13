@@ -798,7 +798,7 @@ Manejo de transacciones: SQL garantizará que las transacciones de compra y vent
 
 Abre una terminal y ejecuta el siguiente comando:
 
-`bash
+`
 sudo apt update
 `
 
