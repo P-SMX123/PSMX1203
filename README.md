@@ -221,13 +221,13 @@ Consulta la [página de Pi-hole](https://docs.pi-hole.net/) para más informaci�
 
 #### **4.2. Actualización del sistema**  
 Antes de instalar Pi-hole, actualiza el sistema con:  
-```bash
+```
 sudo apt update && sudo apt upgrade -y
 ```
 
 #### **4.3. Instalación de Pi-hole**  
 Instala Pi-hole con el siguiente comando:  
-```bash
+```
 curl -sSL https://install.pi-hole.net | bash
 ```
 ![image](https://github.com/user-attachments/assets/13d9959b-1b35-47d0-b186-63971bef9acc)
