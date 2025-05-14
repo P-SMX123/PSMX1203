@@ -583,7 +583,7 @@ En JAF Technology, usaremos el TrueNAS para gestionar las copias de seguridad de
 TrueNAS es ideal para nuestro servicio de hosting, ya que ofrece una solución segura, escalable y confiable para la gestión de datos. Su capacidad de recuperación ante fallos y facilidad de administración garantizan la estabilidad del proyecto sin costos adicionales de licencias.
 
 
-## **18. Instalación TrueNAS**  🖥️ 
+## **17.1 Instalación TrueNAS**  🖥️ 
 
 **Creamos la maquina virtual**
 
@@ -647,7 +647,25 @@ Ve a la sección Sharing.
 
 Selecciona Windows (SMB) Shares.
 
-## **19. RSYNC**
+## **17.2 Comprobación truenas**  🖥️ 
+
+1. En el Ubuntu server (en el cual tenemos el servidor nginx) e echo un script con
+el rysn en el cual e ubicado el scritp en : /usr/local/bin , el script lo que hace es
+que hace copias de seguridad de los archivos de configuración del servidor nginx
+por si hay problemas o se pierden datos recuperarlos lo antes posibles, y al final
+con un comando de crontab -e lo automatizamos para que se hagan las copias
+cada lunes a las 2 de la mañana.
+![image](https://github.com/user-attachments/assets/120a2680-d76b-42f3-ab99-13bbc1e88d9f)
+![image](https://github.com/user-attachments/assets/96d4249e-0bbe-4f1a-b1b9-17070acc4f2a)
+![image](https://github.com/user-attachments/assets/59bc76cd-fed9-457c-a61e-b00bb433ac01)
+
+2.En el Ubuntu server (donde tengo el pihole ) hacemos exactamente lo mismo.
+![image](https://github.com/user-attachments/assets/0ae54927-b1a2-4a34-bb85-7bde4cdc3cb8)
+![image](https://github.com/user-attachments/assets/69ab5e2d-867c-4a56-b1ff-275589ecf03a)
+![image](https://github.com/user-attachments/assets/38641a77-bb29-4d17-9768-8ab8640085f8)
+
+
+## **18. RSYNC**
 
 **1. ¿Qué es rsync y para qué se utiliza?**
 
@@ -668,7 +686,7 @@ Compresión de datos: Ofrece la opción de comprimir los datos durante la transf
 Automatización de copias de seguridad: Permite la creación de copias de seguridad programadas y sincronización automática de archivos entre servidores.
 
 
-## **20. Instalación RSYNC**
+## **18.1 Instalación RSYNC**
 
 Actualiza el sistem antes de instalarlo con:
 
@@ -693,7 +711,7 @@ rsync --version
 
 
 
-## **21. SQL**  🖥️ 
+## **19. SQL**  🖥️ 
 
 **¿Qué es SQL y para qué se utiliza?**
 
