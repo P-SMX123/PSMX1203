@@ -192,32 +192,24 @@ La ip externa que nos proporciona el centro es la 100.77.20.X, la ip pública es
 ## 11. **DNS y DHCP con Pi-hole** 🌍
 
 ### **1. Introducción al servicio (DNS y DHCP)**  
-**DNS** traduce los nombres de dominio a direcciones IP y **DHCP** asigna automáticamente direcciones IP a los dispositivos. Usamos **Pi-hole** para gestionar ambos servicios, mejorando la eficiencia de la red y bloqueando anuncios.
+El **DNS** traduce los nombres de dominio a direcciones IP y **DHCP** asigna automáticamente direcciones IP a los dispositivos y usamos el **Pi-hole** para gestionar ambos servicios, simplificando y mejorando la eficiencia de la red y bloqueando anuncios.
 
 ### **2. ¿Qué es DNS y por qué es necesario?**  
-**DNS** convierte los nombres de dominio (ej. `jaftechnology.com`) en direcciones IP. Es esencial para acceder a sitios web por su nombre y mejora la velocidad de navegación gracias a la caché.
+**DNS** convierte los dominios (ej. `jaftechnology.com`) en direcciones IP (ej. `10.1.2.10`) que es esencial para simplificar el acceso a sitios web por su nombre y mejora la velocidad de navegación gracias a la caché.
 
 **¿Por qué es necesario?**  
-Sin **DNS** no podríamos acceder a sitios web fácilmente usando sus nombres y la navegación sería más compleja.
-
-**¿Dónde hay información oficial?**  
-Para más detalles, visita la [documentación de Pi-hole](https://docs.pi-hole.net/).
+Sin **DNS** no podríamos acceder a sitios web fácilmente usando sus nombres y la navegación sería más compleja ya que tendríamos que poner la IP directamente es un mucho más difícil recordar muchas IPs que nombres de dominio.
 
 ### **3. ¿Qué es DHCP y por qué es necesario?**  
-**DHCP** asigna automáticamente direcciones IP a los dispositivos en la red. Es necesario para evitar configuraciones manuales y conflictos de IP.
+**DHCP** asigna automáticamente direcciones IP a los dispositivos en la red, es necesario para evitar configuraciones manuales y conflictos de IP.
 
 **¿Por qué es necesario?**  
-El uso de **DHCP** facilita la administración de la red al asignar direcciones únicas automáticamente a los dispositivos. Sin **DHCP**, cada dispositivo necesitaría ser configurado manualmente, lo que puede causar conflictos y errores en la red.
+El uso de **DHCP** facilita la administración de la red al asignar direcciones únicas automáticamente a los dispositivos, sin el **DHCP** cada dispositivo necesitaría ser configurado manualmente, lo que puede causar conflictos y errores en la red.
 
 **¿Dónde hay información oficial?**  
 Consulta la [página de Pi-hole](https://docs.pi-hole.net/) para más información.
 
-### **4. Instalación de DNS y DHCP con Pi-hole**
-
-#### **4.1. Requisitos**  
-- Servidor con **Ubuntu**.
-- Conexión a Internet.
-- Permisos de administrador.
+### **4. Instalación de DNS y DHCP con Pi-hole en Ubuntu**
 
 #### **4.2. Actualización del sistema**  
 Antes de instalar Pi-hole, actualiza el sistema con:  
@@ -232,7 +224,6 @@ curl -sSL https://install.pi-hole.net | bash
 ```
 ![image](https://github.com/user-attachments/assets/13d9959b-1b35-47d0-b186-63971bef9acc)
 
-
 #### **4.4. Configuración del servidor DNS**  
 Selecciona un proveedor de DNS (Google, Cloudflare, etc.) y activa el bloqueo de anuncios.
 ![image](https://github.com/user-attachments/assets/0073e040-7a5c-46c0-b06e-ff0cadae7eb8)
@@ -240,14 +231,15 @@ Selecciona un proveedor de DNS (Google, Cloudflare, etc.) y activa el bloqueo de
 #### **4.5. Habilitación del servidor DHCP**  
 1. Accede a la interfaz web en `http://pi.hole/admin`.  
 2. Activa el servidor **DHCP** desde la pestaña **Settings** > **DHCP**.
-3. Configura el rango de IPs a asignar. Por ejemplo, si tu red usa el rango `192.168.1.0/24`, puedes asignar el rango de IPs de `192.168.1.100` a `192.168.1.200`.
-4. **Desactiva el servicio DHCP** en tu router para evitar conflictos en la asignación de IPs, ya que solo debe haber un servidor DHCP en la red.
+3. Configura el rango de IPs a asignar, por ejemplo, si tu red usa el rango `192.168.1.0/24` puedes asignar el rango de IPs de `192.168.1.100` a `192.168.1.200`.
+4. **Desactiva el servicio DHCP** en tu router para evitar conflictos en la asignación de IPs ya que solo debe haber un servidor DHCP en la red.
 ![image](https://github.com/user-attachments/assets/2b2b00c4-5235-43b3-a811-a4425e1e6743)
+
 
 ### **5. ¿Por qué utilizar Pi-hole para gestionar DHCP?**  
 Usar Pi-hole para gestionar **DNS** y **DHCP** tiene varias ventajas:
 
-- **Centralización**: Al gestionar ambos servicios desde una sola interfaz, facilita el mantenimiento de la red.
+- **Centralización de los servicios**: Al gestionar ambos servicios desde una sola interfaz facilita el mantenimiento de la red.
 - **Optimización de la red**: El DHCP de Pi-hole asigna IPs de manera eficiente y el bloqueo de anuncios mejora la velocidad de navegación.
 - **Seguridad**: Tener un control único sobre ambos servicios nos permite tener mejor visibilidad sobre los dispositivos conectados y gestionar posibles bloqueos.
 
@@ -260,39 +252,30 @@ Pi-hole simplificó la gestión de **DNS** y **DHCP**, mejorando la red, bloquea
 ## 12. APACHE, PHP y HTML  📦
 
 ### **1. Introducción** 
-Apache es un servidor web de código abierto que permite alojar aplicaciones y sitios web. PHP es un lenguaje de programación ampliamente utilizado para el desarrollo web. En esta guía, explicamos cómo instalar y configurar ambos en Ubuntu.
+Apache es un servidor web de código abierto que permite alojar aplicaciones y sitios web. PHP es un lenguaje de programación utilizado para el desarrollo web y ahora os explicaremos cómo instalar y configurar ambos en Ubuntu.
 
 ### **2. ¿Qué es Apache y por qué es necesario?** 
-Apache es un servidor HTTP que permite a los usuarios acceder a páginas web alojadas en un servidor. Es altamente configurable y compatible con múltiples tecnologías.
+Apache es un servidor HTTP que permite a los usuarios acceder a páginas web alojadas en un servidor, es altamente configurable y compatible con otras aplicaciones o servicios.
 
 **¿Por qué es necesario?** 
-Apache permite la publicación de sitios web y aplicaciones en un entorno seguro y escalable.
+Porque Apache permite la publicación de sitios web y aplicaciones en un entorno seguro y escalable.
 
 ### **3. ¿Qué es PHP y por qué es necesario?** 
-PHP es un lenguaje de programación de servidor que se utiliza para la creación de sitios dinámicos y aplicaciones web.
-
-**¿Por qué es necesario?**
-PHP permite el procesamiento de datos en el servidor, la conexión con bases de datos y la generación de contenido dinámico.
+PHP es un lenguaje de programación de servidor que se utiliza para la creación de sitios dinámicos y aplicaciones web, PHP también permite el procesamiento de datos en el servidor, la conexión con bases de datos y la generación de contenido dinámico.
 
 ### **4. Instalación de Apache y PHP en Ubuntu**
 
-**4.1. Requisitos**
+**4.1. Actualización del sistema**
 
--Servidor con **Ubuntu**.
--Conexión a Internet.
--Permisos de administrador.
-
-**4.2. Actualización del sistema**
-
-Antes de instalar Pi-hole, actualiza el sistema con:
-```bash
+Antes de instalar Pi-hole actualiza el sistema con:
+```
 sudo apt update && sudo apt upgrade -y
 ```
 
-**4.3. Instalación del Apache**
+**4.2. Instalación del Apache**
 
-Para instalar Apache, ejecuta el siguiente comando:
-```bash
+Para instalar Apache ejecuta el siguiente comando:
+```
 sudo apt install apache2 -y
 ```
 
@@ -302,46 +285,46 @@ sudo systemctl status apache2
 ```
 
 Si Apache no está activo, puedes iniciarlo con:
-```bash
+```
 sudo systemctl start apache2
 ```
 
 Para asegurarte de que Apache se inicie automáticamente al arrancar el sistema:
-```bash
+```
 sudo systemctl enable apache2
 ```
 
-**4.4. Instalación de PHP**
+**4.3. Instalación de PHP**
 
-Para instalar PHP junto con el módulo de Apache y soporte para MySQL, ejecuta:
-```bash
+Para instalar PHP junto con el módulo de Apache y soporte para MySQL ejecuta:
+```
 sudo apt install php libapache2-mod-php php-mysql -y
 ```
 
 Verifica la instalación de PHP con:
-```bash
+```
 php -v
 ```
 
-**4.5. Configuración de Apache para PHP**
+**4.4. Configuración de Apache para PHP**
 
-Para asegurarte de que Apache prioriza los archivos PHP, edita el archivo de configuración:
-```bash
+Para asegurarte de que Apache prioriza los archivos PHP edita el archivo de configuración:
+```
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 
 Modifica la línea:
-```bash
+```
 DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
 ```
 
 Asegúrate de que index.php sea el primero:
-```bash
+```
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ```
 
-Guarda y cierra el archivo, luego reinicia Apache:
-```bash
+Guarda, cierra el archivo y luego reinicia Apache:
+```
 sudo systemctl restart apache2
 ```
 
@@ -350,23 +333,23 @@ sudo systemctl restart apache2
 **5.1. Verificar que Apache y PHP funcionan correctamente**
 
 Crea un archivo de prueba:
-```bash
+```
 sudo nano /var/www/html/info.php
 ```
 
 Añade el siguiente contenido:
-```bash
+```
 <?php
 phpinfo();
 ?>
 ```
 
 Guarda y cierra el archivo. Luego accede a:
-```bash
+```
 http://localhost/info.php
 ```
 
-**5.2. Problemas comunes y soluciones**
+**5.2. Problemas comunes que nos ha sucedido y soluciones**
 
 Apache no inicia: Ejecuta ```bash sudo systemctl restart apache2.```
 
@@ -374,15 +357,12 @@ Página en blanco en info.php: Verifica la instalación de PHP con ```bash php -
 
 Acceso denegado a archivos PHP: Ajusta permisos con ```bash sudo chmod -R 755 /var/www/html/.```
 
-**6. Conclusión**
-
-Con estos pasos, hemos instalado y configurado Apache y PHP en Ubuntu. Ahora el servidor está listo para alojar aplicaciones web dinámicas.
 
 ## 13. **Pfsense**  🔒
 
 **1.	¿Qué es pfSense y para qué se utiliza?**
 
-Es un software de firewall y enrutador de código abierto. Se utiliza para proteger redes, gestionar el tráfico y ofrecer funciones avanzadas de seguridad en entornos empresariales y domésticos.
+Es un software de firewall y enrutador de código abierto, se utiliza para proteger redes, gestionar el tráfico y ofrecer funciones avanzadas de seguridad en entornos empresariales y domésticos.
 
 **2.	¿En qué sistema se basa?**
 
@@ -390,11 +370,7 @@ PfSense está basado en el sistema operativo FreeBSD, lo que le proporciona esta
 
 **3.	¿Cuáles son las principales características de pfSense?**
 
--Firewall de alto rendimiento con filtrado de paquetes.
-
 -VPN para conexiones seguras.
-
--Balanceo de carga y tolerancia a fallos.
 
 -Control de tráfico y calidad de servicio .
 
@@ -408,7 +384,9 @@ La instalación de pfSense se realiza descargando la imagen ISO, creando un medi
 
 **5.	¿Consideras pfSense una opción viable para empresas y redes domésticas?**
 
-Sí, pfSense es una opción viable tanto para empresas como para redes domésticas debido a su flexibilidad, facilidad de uso y su conjunto de características avanzada. Ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
+Sí, pfSense es una buena opción tanto para empresas como para redes domésticas debido a su  facilidad de uso, su conjunto de características avanzadas, flexibilidad y ofrece una solución de seguridad sin los costos asociados a soluciones comerciales.
+
+
 
 ## 14. **INSTALACIÓN Pfsense**  🔒
 
@@ -418,95 +396,55 @@ Sí, pfSense es una opción viable tanto para empresas como para redes doméstic
 https://www.pfsense.org/download/
 `
 
-**2.Adaptadores RED**
+**2.Instalación**
 
-`
--Adaptador de red: Adaptador Puente
-`
-
-`
--Adaptador de red: Solo Anfitrión
-`
-
-3**Configuración**
-
-`
--RAM:  2048
-`
-
-`
--HDD:  16 GB
-`
-
-`
--S.O.:  BSD
-`
-
-**4.Instalación**
-
-1.Instalamos todo por defecto. Apagamos. Quitamos la ISO y reiniciamos. Una vez que nos sale la pantalla inicial, comenzamos a configurar.
+1.Instalamos todo por defecto, luego apagamos, quitamos la ISO de la maquina virtual, volvemos a arrancarla y una vez que nos sale la pantalla inicial, comenzamos a configurar.
 ![image](https://github.com/user-attachments/assets/6798728c-7d7e-45e1-a25d-d8710129915e)
 
-2.Las direcciones IP de la serie RFC 1918 están reservadas para uso privado en redes locales y son comunes en configuraciones de redes con NAT 
+2.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en la misma red y división. 
 
-2.1
-Los rangos de direcciones RFC 1918 incluyen:
-
-`
--10.0.0.0/8
-`
-
-`
--172.16.0.0/12
-`
-
-`
--192.168.0.0/16
-`
-
-3.Para acceder a la configuración de pfSense desde el equipo anfitrión, ambos dispositivos deben estar en la misma red. 
-
-4.Accedemos a la interfaz web de pfSense.
+3.Accedemos a la interfaz web de pfSense.
 
 -En la configuración básica del sistema:
 
 `
--Se configura un dominio (por ejemplo, pfsense.kirby.local).
+-Configura un dominio (por ejemplo, pfsense.kirby.local).
 `
 
 `
--Se establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
+-Establecen servidores DNS como 1.1.1.1 y 8.8.8.8.
 `
 
 `
--Se selecciona el timezone adecuado.
+-Selecciona la zona horaria adecuada (por ejemplo, Europe/Madrid).
 `
 
 `
--Se cambia la contraseña del administrador para mayor seguridad.
+-Cambia la contraseña del administrador para mayor seguridad.
 `
 
-5.Pasos clave:
+4.Pasos clave:
 
 `
--Configurar la red de pfSense para que esté en el mismo segmento de red que el equipo anfitrión.
-`
-
-`
--Habilitar DHCP en pfSense para asignar direcciones IP a las máquinas virtuales.
+-Configura la red de pfSense para que esté en la misma división de red que el equipo anfitrión y se pueda conectar.
 `
 
 `
--Acceder al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
+-Habilita DHCP en pfSense para asignar automáticamente direcciones IP a las máquinas virtuales.
 `
 
 `
--Instalar paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
+-Accede al firewall desde el equipo anfitrión para realizar configuraciones iniciales.
 `
+
+`
+-Instala paquetes adicionales según sea necesario (por ejemplo, para proxy y VPN).
+`
+
 
 **5.OpenVPN**
 
--Que es?
+-¿Que es?
 
 Un servidor VPN es una herramienta esencial para garantizar la seguridad y privacidad en línea, proporcionando una conexión cifrada entre un dispositivo cliente y una red privada a través de Internet.
 
@@ -561,6 +499,8 @@ En el caso de utilizar un dispositivo móvil, tendríamos que instalar la **Open
 
 Hay que exportar el certificado del cliente que hemos creado a nuestro dispositivo para comprobar su funcionamiento.
 
+
+
 ## 15. **SOPHOS**  🔐
 
 **1.	¿Qué es Sophos y para qué se utiliza?**
@@ -575,30 +515,25 @@ Sophos utiliza un sistema propietario y tecnologías avanzadas basadas en la nub
 
 -Protección avanzada contra amenazas: Incluye defensa contra malware, ransomware y otras amenazas cibernéticas.
 
--Firewall de nueva generación: Permite un control granular del tráfico y la aplicación de políticas de seguridad.
-
 -Protección contra intrusiones y filtrado web: Detecta y previene intentos de intrusión y controla el acceso a sitios web peligrosos.
 
 -Gestión centralizada: Ofrece una consola única para gestionar la seguridad de todos los dispositivos conectados.
-
--VPN y acceso remoto seguro: Facilita la conexión remota segura para empleados.
 
 -Prevención de pérdida de datos: Ayuda a proteger información sensible y cumple con normativas de privacidad.
 
 **4.	¿Cómo se instala y configura Sophos? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual?**
 
-La instalación de Sophos depende del producto específico, pero generalmente incluye la descarga de la solución desde su portal, la instalación en un servidor o dispositivo y la configuración mediante la consola de administración centralizada. En entornos virtuales, es esencial verificar la compatibilidad con la plataforma de virtualización y asegurar que los recursos del sistema sean suficientes para no afectar el rendimiento.
+La instalación de Sophos depende del producto específico, pero generalmente incluye la descarga desde su web, la instalación en un servidor o dispositivo y la configuración mediante la consola de administración centralizada. En entornos virtuales es esencial verificar la compatibilidad con la plataforma de virtualización y asegurar que los recursos del sistema sean suficientes para no afectar el rendimiento.
 
 **5.	¿Consideras sophos una opción viable para empresas y redes domésticas?**
 
-Sí, Sophos es una opción muy viable tanto para empresas como para redes domésticas. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además, su interfaz amigable y su soporte técnico hacen que sea una opción popular.
+Sí, Sophos es una opción muy buena tanto para empresas como para redes domésticas pero en nuestro caso hemos elegido el pfsense ya que estabamos más familiarizados con el. Para empresas, ofrece soluciones completas de seguridad con una excelente capacidad de gestión centralizada, ideal para infraestructuras complejas. En redes domésticas, sus soluciones de antivirus y firewall proporcionan una protección confiable contra amenazas sin ser costosas. Además su interfaz amigable y su soporte técnico hacen que sea una opción popular.
 
 ## 16. **Port Forward** 🔌
 
 **1.  ¿Qué es port Forward?** 
 
-Es un proceso mediante el cual se configuran los routers o cortafuegos para permitir que el tráfico de la red externa llegue a un dispositivo específico dentro de una red privada local.
-El port forwarding es necesario en situaciones donde quieres que un dispositivo de tu red local sea accesible desde el exterior.
+Es un proceso en el cual se configuran los routers o cortafuegos para permitir que el tráfico de la red externa llegue a un dispositivo específico dentro de una red privada local, básicamente es como si fuera un tunel que permite el acceso de una red externa a una interna y pueda ver y acceder a lo que quieras.
 
 **2. ¿Cómo funciona el port forwarding?**
 
@@ -631,15 +566,13 @@ TrueNAS se basa en FreeBSD y utiliza el sistema de archivos ZFS, que proporciona
 
 **3. ¿Cuáles son las principales características de TrueNAS?**
 
-- **Almacenamiento en red (NAS/SAN):** Compatible con SMB, NFS e iSCSI para compartir archivos de manera eficiente.  
-- **Gestión de copias de seguridad:** Permite realizar backups automáticos para proteger datos críticos.  
+- **Almacenamiento en red (NAS/SAN):** Compatible con SMB, NFS e iSCSI para compartir archivos de manera eficiente.
 - **RAID y redundancia:** Usa **ZFS** para evitar pérdida de información y mejorar la estabilidad del almacenamiento.  
 - **Interfaz web intuitiva:** Facilita la administración sin necesidad de comandos complejos.  
 - **Compatibilidad con virtualización:** Se integra con Docker, Kubernetes y máquinas virtuales.  
-- **Replicación y sincronización:** Permite clonar y sincronizar datos en servidores remotos para mayor seguridad.  
 
 **4. ¿Cómo se instalará y configurará TrueNAS en nuestro proyecto?**  
-En JAF Technology, TrueNAS se usará para gestionar las copias de seguridad del servidor, asegurando que los archivos del sitio web, bases de datos y configuraciones estén protegidos. La instalación incluirá:  
+En JAF Technology, usaremos el TrueNAS para gestionar las copias de seguridad del servidor, asegurando que los archivos del sitio web, bases de datos y configuraciones estén protegidos. La instalación incluirá:  
 
 1. **Descarga e instalación** en un servidor dedicado o máquina virtual.  
 2. **Configuración del almacenamiento y creación de pools ZFS**.  
@@ -660,21 +593,19 @@ Descargamos la ISO de truenas para la instalación, con tipo BSD y version FreeB
    
 En la máquina virtual o servidor donde deseas instalar TrueNAS, configura los adaptadores de red.
 
-Adaptador de red: Adaptador Puente
-Esto permitirá que la máquina virtual esté en la misma red local que el host físico.
+Adaptador de red: Adaptador Puente, que permitirá que la máquina virtual esté en la misma red local que el host físico.
 
-Adaptador de red: Solo Anfitrión
-Configura un adaptador adicional para comunicación privada entre el anfitrión y la máquina virtual si es necesario.
+Adaptador de red: Solo Anfitrión, configura un adaptador adicional para comunicación privada entre el anfitrión y la máquina virtual si es necesario.
 
 **Configuración la maquina virtual**
 
-Una vez que hayas configurado la máquina virtual, instala TrueNAS utilizando la ISO descargada. La instalación de TrueNAS es sencilla, sigue los pasos predeterminados:
+- Una vez que hayas configurado la máquina virtual, instala TrueNAS utilizando la ISO descargada. La instalación de TrueNAS es sencilla, sigue los pasos predeterminados:
 
-Elige la opción de instalación por defecto.
+- Elige la opción de instalación por defecto.
 
-Durante la instalación, se configurarán automáticamente los discos y las particiones.
+- Durante la instalación, se configurarán automáticamente los discos y las particiones.
 
-Cuando la instalación haya terminado, apaga la máquina virtual, elimina la ISO del sistema y reinicia.
+- Cuando la instalación haya terminado, apaga la máquina virtual, elimina la ISO del sistema y reinicia.
 
 **Configuración de la red y acceso web**
 
@@ -694,7 +625,7 @@ Configura un nombre de dominio.
 
 Configura los servidores DNS.
 
-Establece el timezone adecuado.
+Establece la zona horaria adecuada.
 
 Cambia la contraseña de administrador para mayor seguridad.
 
@@ -720,12 +651,11 @@ Selecciona Windows (SMB) Shares.
 
 **1. ¿Qué es rsync y para qué se utiliza?**
 
-rsync es una herramienta de sincronización de archivos y directorios
-Se utiliza para copiar y sincronizar archivos de manera eficiente entre dos ubicaciones, ya sea en el mismo sistema o entre sistemas remotos a través de una red. 
+Rsync es una herramienta de sincronización de archivos y directorios, se utiliza para copiar y sincronizar archivos de manera eficiente entre dos ubicaciones, ya sea en el mismo sistema o entre sistemas remotos a través de una red. 
 
 **2. ¿En qué sistema se basa?**
 
-rsync está diseñado para funcionar en sistemas Unix, Linux, macOS y otros sistemas operativos basados en Unix.
+Rsync está diseñado para funcionar en sistemas Unix, Linux, macOS y otros sistemas operativos basados en Unix y sirve para sincronizar datos de forma remota.
 
 **3. ¿Cuáles son las principales características de rsync?**
 
@@ -735,59 +665,58 @@ Transferencia remota: Permite la transferencia de archivos entre sistemas locale
 
 Compresión de datos: Ofrece la opción de comprimir los datos durante la transferencia para ahorrar ancho de banda.
 
-Verificación de integridad: Usa sumas de verificación para garantizar que los archivos se copien de manera correcta y completa.
-
-Preservación de atributos: Mantiene los atributos de los archivos durante la transferencia.
-
 Automatización de copias de seguridad: Permite la creación de copias de seguridad programadas y sincronización automática de archivos entre servidores.
+
 
 ## **20. Instalación RSYNC**
 
-Actualizar el sistema: Antes de instalar cualquier software, es recomendable actualizar el sistema.
+Actualiza el sistem antes de instalarlo con:
 
 `
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 `
 
-Instalar rsync: Para instalar rsync en sistemas basados en Debian
+Para instalar rsync en sistemas basados en Debian
 
 `
 sudo apt-get install rsync
 `
-Verificar la instalación: Después de instalar, puedes verificar que rsync se haya instalado correctamente ejecutando:
+Después de instalar, puedes verificar que rsync se haya instalado correctamente ejecutando:
 
 `
 rsync --version
 `
 
+
+
+
+
+
+
 ## **21. SQL**  🖥️ 
 
 **¿Qué es SQL y para qué se utiliza?**
 
-SQL es un lenguaje estándar utilizado para gestionar bases de datos relacionales. Permite realizar operaciones como consultas, actualizaciones, inserciones y eliminaciones de datos en bases de datos. SQL es fundamental para interactuar con sistemas de gestión de bases de datos.
+SQL es un lenguaje estándar utilizado para gestionar bases de datos relacionales, permite realizar operaciones como consultas, actualizaciones, inserciones y eliminaciones de datos en bases de datos. SQL es fundamental para interactuar con sistemas de gestión de bases de datos.
 
 **¿Cuáles son las principales características de SQL?**
 
-Consultas complejas: Permite realizar consultas con operaciones avanzadas como joins, subconsultas y agrupaciones.
+**Consultas complejas** : Permite realizar consultas con operaciones avanzadas como joins, subconsultas y agrupaciones.
 
-Manejo de transacciones: Permite controlar transacciones para asegurar la integridad de los datos.
+**Seguridad de los datos**: SQL incluye funcionalidades para definir roles y permisos, protegiendo los datos de accesos no autorizados.
 
-Lenguaje declarativo: En lugar de indicar cómo se deben realizar las tareas, se describe qué se debe hacer (por ejemplo, obtener ciertos datos).
-
-Seguridad de los datos: SQL incluye funcionalidades para definir roles y permisos, protegiendo los datos de accesos no autorizados.
-
-Integridad referencial: SQL puede garantizar que los datos en diferentes tablas se mantengan consistentes mediante claves primarias y foráneas.
+**Integridad referencial**: SQL puede garantizar que los datos en diferentes tablas se mantengan consistentes mediante claves primarias y foráneas.
 
 **¿Cómo se utilizará SQL en nuestro proyecto?**
 
-En el proyecto de gestión de datos de clientes de la empresa, SQL será esencial por que es el lenguaje que utiliza MySql:
+En el proyecto lo usaremos para:
 
 Creación y mantenimiento de la base de datos: Se diseñarán y creará las tablas necesarias para almacenar los datos de clientes, pedidos y productos.
 
 Consultas y reportes: Utilizaremos MySQL para generar reportes de ventas, consultas de inventarios y otros análisis de datos.
 
 Manejo de transacciones: SQL garantizará que las transacciones de compra y venta sean seguras, asegurando que la base de datos se mantenga coherente y libre de errores.
+
 
 ##**22.¿MySQL?**
 
