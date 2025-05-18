@@ -505,7 +505,7 @@ Hay que exportar el certificado del cliente que hemos creado a nuestro dispositi
 
 **1.	¿Qué es Sophos y para qué se utiliza?**
 
-Shophos ofrece soluciones de protección para redes, dispositivos y sistemas informáticos. Sus productos incluyen firewalls, antivirus, protección contra malware y herramientas de gestión de seguridad, tanto para entornos empresariales como domésticos.
+Sophos ofrece soluciones de protección para redes, dispositivos y sistemas informáticos. Sus productos incluyen firewalls, antivirus, protección contra malware y herramientas de gestión de seguridad, tanto para entornos empresariales como domésticos.
 
 **2.	¿En qué sistema se basa?**
 
