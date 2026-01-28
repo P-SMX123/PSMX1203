@@ -150,11 +150,11 @@ La ip externa que nos proporciona el centro es la 100.77.20.X, la ip pública es
 | **Configuración del Servidor Web**   | 17/02/25 | 24/02/25 | **Jiajie** 🛠️   |
 | **Configuración del DNS**            | 27/02/25 | 06/03/25 | **Felipe** 🌐   |
 | **Desarrollo Web (HTML/CSS/JS)**     | 10/03/25 | 20/03/25 | **Todos** 🎨   |
-| **Integración de Base de Datos**     | 21/03/25 | 25/03/25 | **Encargado** 📊   |
-| **Configuración de PHP y Webmin**    | 26/03/25 | 31/03/25 | **Encargado** 🌐   |
-| **Pruebas de Seguridad (Pentesting)**| 01/04/25 | 10/04/25 | **Encargado** 🕵️‍♂️ |
-| **Análisis de Tráfico (Wireshark)**  | 11/04/25 | 17/04/25 | **Encargado** 🐟   |
-| **Optimización y Ajustes Finales**   | 18/04/25 | 27/04/25 | **Encargado** 👥   |
+| **Integración de Base de Datos**     | 21/03/25 | 25/03/25 | **Alejandro** 📊   |
+| **Configuración de PHP y Webmin**    | 26/03/25 | 31/03/25 | **Jiajie** 🌐   |
+| **Pruebas de Seguridad (Pentesting)**| 01/04/25 | 10/04/25 | **Alejandro** 🕵️‍♂️ |
+| **Análisis de Tráfico (Wireshark)**  | 11/04/25 | 17/04/25 | **Felipe** 🐟   |
+| **Optimización y Ajustes Finales**   | 18/04/25 | 27/04/25 | **Jiajie** 👥   |
 | **Entrega del Proyecto**             | 30/04/25 | 06/05/25 | **Finalización** ✅ |
 
 ## 10. **Diagrama de Relaciones Entidad-Relación** 🗂️
@@ -791,34 +791,25 @@ FLUSH PRIVILEGES;
 
 
 # **25. Recursos 📚**
-** Bibliografía **
 
-Comer, D. Redes de computadoras e Internet. Pearson.
+## **Bibliografía**
 
-Stallings, W. Seguridad en redes y criptografía. Pearson.
+- Comer, D. *Redes de computadoras e Internet*. Pearson.  
+- Stallings, W. *Seguridad en redes y criptografía*. Pearson.
 
-** Webgrafía **
+## **Webgrafía**
 
-Ubuntu Server: https://ubuntu.com/server/docs
+- Ubuntu Server: https://ubuntu.com/server/docs  
+- Nginx: https://nginx.org/en/docs/  
+- PHP: https://www.php.net/manual/es/  
+- MySQL: https://dev.mysql.com/doc/  
+- Pi-hole: https://docs.pi-hole.net/  
+- Wireshark: https://www.wireshark.org/docs/  
+- pfSense: https://docs.netgate.com/pfsense/en/latest/  
+- TrueNAS: https://www.truenas.com/docs/
 
-Nginx: https://nginx.org/en/docs/
+## **Otros recursos**
 
-PHP: https://www.php.net/manual/es/
-
-MySQL: https://dev.mysql.com/doc/
-
-Pi-hole: https://docs.pi-hole.net/
-
-Wireshark: https://www.wireshark.org/docs/
-
-pfSense: https://docs.netgate.com/pfsense/en/latest/
-
-TrueNAS: https://www.truenas.com/docs/
-
-** Otros recursos **
-
-NetworkChuck (YouTube): https://www.youtube.com/@NetworkChuck
-
-David Bombal (YouTube): https://www.youtube.com/@davidbombal
-
-Material y apuntes del profesorado
+- NetworkChuck (YouTube): https://www.youtube.com/@NetworkChuck  
+- David Bombal (YouTube): https://www.youtube.com/@davidbombal  
+- Material y apuntes del profesorado
