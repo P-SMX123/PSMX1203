@@ -790,20 +790,35 @@ FLUSH PRIVILEGES;
 
 
 
+# **25. Recursos 📚**
+** Bibliografía **
 
-## **25. Recursos**  📚
+Comer, D. Redes de computadoras e Internet. Pearson.
 
-- **Bibliografía:**
- 
+Stallings, W. Seguridad en redes y criptografía. Pearson.
 
+** Webgrafía **
 
-- **Webgrafía:**
+Ubuntu Server: https://ubuntu.com/server/docs
 
+Nginx: https://nginx.org/en/docs/
 
+PHP: https://www.php.net/manual/es/
 
-- **Vídeos:**
+MySQL: https://dev.mysql.com/doc/
 
+Pi-hole: https://docs.pi-hole.net/
 
+Wireshark: https://www.wireshark.org/docs/
 
-- **Cursos:**
+pfSense: https://docs.netgate.com/pfsense/en/latest/
 
+TrueNAS: https://www.truenas.com/docs/
+
+** Otros recursos **
+
+NetworkChuck (YouTube): https://www.youtube.com/@NetworkChuck
+
+David Bombal (YouTube): https://www.youtube.com/@davidbombal
+
+Material y apuntes del profesorado
