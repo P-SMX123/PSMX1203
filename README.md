@@ -1,7 +1,7 @@
 ![Leonardo_Phoenix_10_A_futuristic_hightech_banner_featuring_the_0](https://github.com/user-attachments/assets/f485e7ab-a7d4-4f5b-9b10-8e2e60fea177)
 # **JAF Technology: Plataforma de Hosting Web** 🌐💻
 
-[Idea seleccionada](## 1. **Idea seleccionada** 🧑‍💻)
+(## 1. **Idea seleccionada** 🧑‍💻)
 
 
 
